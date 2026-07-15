@@ -59,7 +59,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-15",
-    "updatedAt": "2024-03-10"
+    "updatedAt": "2024-03-10",
+    "reviewSource": "G2"
   },
   {
     "id": "2",
@@ -117,7 +118,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-20",
-    "updatedAt": "2024-03-05"
+    "updatedAt": "2024-03-05",
+    "reviewSource": "G2"
   },
   {
     "id": "3",
@@ -175,7 +177,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-01",
-    "updatedAt": "2024-03-12"
+    "updatedAt": "2024-03-12",
+    "reviewSource": "G2"
   },
   {
     "id": "4",
@@ -232,7 +235,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-10",
-    "updatedAt": "2024-03-08"
+    "updatedAt": "2024-03-08",
+    "reviewSource": "G2"
   },
   {
     "id": "5",
@@ -289,7 +293,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-15",
-    "updatedAt": "2024-03-03"
+    "updatedAt": "2024-03-03",
+    "reviewSource": "G2"
   },
   {
     "id": "6",
@@ -342,7 +347,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-20",
-    "updatedAt": "2024-03-02"
+    "updatedAt": "2024-03-02",
+    "reviewSource": "G2"
   },
   {
     "id": "7",
@@ -400,7 +406,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-01",
-    "updatedAt": "2024-03-15"
+    "updatedAt": "2024-03-15",
+    "reviewSource": "G2"
   },
   {
     "id": "8",
@@ -457,7 +464,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-01",
-    "updatedAt": "2024-03-15"
+    "updatedAt": "2024-03-15",
+    "reviewSource": "G2"
   },
   {
     "id": "9",
@@ -514,7 +522,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-10",
-    "updatedAt": "2024-03-20"
+    "updatedAt": "2024-03-20",
+    "reviewSource": "G2"
   },
   {
     "id": "10",
@@ -571,7 +580,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-15",
-    "updatedAt": "2024-03-25"
+    "updatedAt": "2024-03-25",
+    "reviewSource": "G2"
   },
   {
     "id": "11",
@@ -630,7 +640,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-20",
-    "updatedAt": "2024-03-28"
+    "updatedAt": "2024-03-28",
+    "reviewSource": "G2"
   },
   {
     "id": "12",
@@ -689,7 +700,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-25",
-    "updatedAt": "2024-04-01"
+    "updatedAt": "2024-04-01",
+    "reviewSource": "G2"
   },
   {
     "id": "13",
@@ -751,7 +763,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-01",
-    "updatedAt": "2024-04-10"
+    "updatedAt": "2024-04-10",
+    "reviewSource": "G2"
   },
   {
     "id": "14",
@@ -810,7 +823,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-05",
-    "updatedAt": "2024-04-12"
+    "updatedAt": "2024-04-12",
+    "reviewSource": "G2"
   },
   {
     "id": "15",
@@ -868,7 +882,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-10",
-    "updatedAt": "2024-04-18"
+    "updatedAt": "2024-04-18",
+    "reviewSource": "G2"
   },
   {
     "id": "16",
@@ -927,7 +942,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-15",
-    "updatedAt": "2024-04-22"
+    "updatedAt": "2024-04-22",
+    "reviewSource": "G2"
   },
   {
     "id": "17",
@@ -987,7 +1003,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-20",
-    "updatedAt": "2024-04-28"
+    "updatedAt": "2024-04-28",
+    "reviewSource": "G2"
   },
   {
     "id": "18",
@@ -1045,7 +1062,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-25",
-    "updatedAt": "2024-05-01"
+    "updatedAt": "2024-05-01",
+    "reviewSource": "G2"
   },
   {
     "id": "19",
@@ -1104,7 +1122,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-05-01",
-    "updatedAt": "2024-05-10"
+    "updatedAt": "2024-05-10",
+    "reviewSource": "G2"
   },
   {
     "id": "20",
@@ -1162,7 +1181,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-05-05",
-    "updatedAt": "2024-05-15"
+    "updatedAt": "2024-05-15",
+    "reviewSource": "G2"
   },
   {
     "id": "21",
@@ -1224,7 +1244,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "22",
@@ -1285,7 +1306,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "23",
@@ -1346,7 +1368,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "24",
@@ -1406,7 +1429,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "25",
@@ -1467,7 +1491,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "26",
@@ -1528,7 +1553,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "27",
@@ -1590,7 +1616,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "28",
@@ -1650,7 +1677,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   },
   {
     "id": "29",
@@ -1711,7 +1739,8 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2"
   }
 ];
 

@@ -28,6 +28,7 @@ export interface Listing {
   verified: boolean;
   rating: number;
   reviewCount: number;
+  reviewSource: string;
   tags: string[];
   keyFeatures: string[];
   integrations: string[];
