@@ -6,8 +6,8 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+          <div className="md:col-span-1">
             <h3 className="text-white font-bold text-lg mb-3">{siteConfig.name}</h3>
             <p className="text-sm leading-relaxed">{siteConfig.description}</p>
           </div>
