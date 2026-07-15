@@ -15,7 +15,7 @@ export const categories: Category[] = [
     "slug": "lead-generation",
     "description": "AI tools for lead generation",
     "icon": "🔧",
-    "count": 2
+    "count": 4
   },
   {
     "id": "3",
@@ -39,7 +39,7 @@ export const categories: Category[] = [
     "slug": "productivity-automation",
     "description": "AI tools for productivity & automation",
     "icon": "🔧",
-    "count": 1
+    "count": 2
   },
   {
     "id": "6",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     "slug": "social-media-content",
     "description": "AI tools for social media & content",
     "icon": "🔧",
-    "count": 1
+    "count": 2
   },
   {
     "id": "7",

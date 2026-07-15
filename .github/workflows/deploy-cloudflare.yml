@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate listings
+      - name: Generate listings from local data
         run: npx tsx scripts/generate-listings.ts
 
       - name: Build

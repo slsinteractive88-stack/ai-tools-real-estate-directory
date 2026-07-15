@@ -57,6 +57,7 @@ export const listings: Listing[] = [
     "pricingType": "Freemium",
     "startingPrice": 5,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-01-15",
     "updatedAt": "2024-03-10"
   },
@@ -114,6 +115,7 @@ export const listings: Listing[] = [
     "pricingType": "Freemium",
     "startingPrice": 29,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-01-20",
     "updatedAt": "2024-03-05"
   },
@@ -122,57 +124,58 @@ export const listings: Listing[] = [
     "title": "Ylopo",
     "slug": "ylopo",
     "description": "AI-powered digital marketing platform for real estate. Facebook/Google ads, landing pages, CRM integration, and predictive lead scoring.",
-    "shortDescription": "All-in-one AI marketing: ads",
+    "shortDescription": "All-in-one AI marketing: ads, lead gen, predictive scoring.",
     "categoryId": "lead-generation",
     "categoryName": "Lead Generation",
-    "website": "4.5",
+    "website": "https://ylopo.com",
     "email": "",
     "phone": "",
     "address": "",
     "city": "",
     "state": "",
     "country": "US",
-    "logo": "Web,Mobile App",
+    "logo": "https://ylopo.com/logo.png",
     "images": [
-      "Teams",
-      "Brokerages"
+      "https://ylopo.com/screen1.png"
     ],
     "featured": false,
-    "verified": false,
-    "rating": 0,
-    "reviewCount": 0,
+    "verified": true,
+    "rating": 4.5,
+    "reviewCount": 500,
     "tags": [
-      "500"
-    ],
-    "keyFeatures": [
-      "USD"
-    ],
-    "integrations": [
       "lead-gen",
       "facebook-ads",
       "google-ads",
       "predictive-scoring",
       "crm"
     ],
-    "platforms": [
+    "keyFeatures": [
       "Predictive scoring",
       "Auto-optimization",
       "Multi-channel",
       "CRM sync"
     ],
-    "targetUsers": [
+    "integrations": [
       "Follow Up Boss",
       "BoomTown",
       "kvCORE",
       "LionDesk"
     ],
-    "pricing": "lead scoring.",
-    "pricingType": "https://ylopo.com",
+    "platforms": [
+      "Web",
+      "Mobile App"
+    ],
+    "targetUsers": [
+      "Teams",
+      "Brokerages"
+    ],
+    "pricing": "Contact for pricing",
+    "pricingType": "Contact",
     "startingPrice": 0,
-    "currency": "Contact",
-    "affiliateLink": "4.5",
-    "createdAt": "",
-    "updatedAt": ""
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-02-01",
+    "updatedAt": "2024-03-12"
   },
   {
     "id": "4",
@@ -227,6 +230,7 @@ export const listings: Listing[] = [
     "pricingType": "Subscription",
     "startingPrice": 199,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-02-10",
     "updatedAt": "2024-03-08"
   },
@@ -283,6 +287,7 @@ export const listings: Listing[] = [
     "pricingType": "Contact",
     "startingPrice": 0,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-02-15",
     "updatedAt": "2024-03-03"
   },
@@ -335,6 +340,7 @@ export const listings: Listing[] = [
     "pricingType": "Free",
     "startingPrice": 0,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-02-20",
     "updatedAt": "2024-03-02"
   },
@@ -343,56 +349,58 @@ export const listings: Listing[] = [
     "title": "Sidekick",
     "slug": "sidekick",
     "description": "AI CRM assistant that automates follow-ups, writes emails, schedules tasks, and predicts which contacts need attention.",
-    "shortDescription": "AI CRM assistant: follow-ups",
+    "shortDescription": "AI CRM assistant: follow-ups, emails, task scheduling.",
     "categoryId": "client-management",
     "categoryName": "Client Management",
-    "website": "4.6",
+    "website": "https://sidekick.com",
     "email": "",
     "phone": "",
     "address": "",
     "city": "",
     "state": "",
     "country": "US",
-    "logo": "Web,Mobile App,Chrome Extension",
+    "logo": "https://sidekick.com/logo.png",
     "images": [
-      "Solo agents",
-      "Teams"
+      "https://sidekick.com/screen1.png"
     ],
     "featured": false,
-    "verified": false,
-    "rating": 0,
-    "reviewCount": 0,
+    "verified": true,
+    "rating": 4.6,
+    "reviewCount": 1200,
     "tags": [
-      "29"
-    ],
-    "keyFeatures": [
-      "USD"
-    ],
-    "integrations": [
       "crm-automation",
       "follow-up",
       "email-writing",
       "task-management"
     ],
-    "platforms": [
+    "keyFeatures": [
       "Smart follow-ups",
       "Email generation",
       "Task prediction",
       "Pipeline insights"
     ],
-    "targetUsers": [
+    "integrations": [
       "Follow Up Boss",
       "LionDesk",
       "kvCORE",
       "HubSpot"
     ],
-    "pricing": "scheduling.",
-    "pricingType": "https://sidekick.com",
-    "startingPrice": 0,
-    "currency": "Subscription",
-    "affiliateLink": "4.6",
-    "createdAt": "",
-    "updatedAt": ""
+    "platforms": [
+      "Web",
+      "Mobile App",
+      "Chrome Extension"
+    ],
+    "targetUsers": [
+      "Solo agents",
+      "Teams"
+    ],
+    "pricing": "From $29/mo",
+    "pricingType": "Subscription",
+    "startingPrice": 29,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-03-01",
+    "updatedAt": "2024-03-15"
   },
   {
     "id": "8",
@@ -447,6 +455,7 @@ export const listings: Listing[] = [
     "pricingType": "Subscription",
     "startingPrice": 69,
     "currency": "USD",
+    "affiliateLink": "",
     "createdAt": "2024-03-01",
     "updatedAt": "2024-03-15"
   },
@@ -499,131 +508,195 @@ export const listings: Listing[] = [
       "Solo agents",
       "Teams"
     ],
-    "pricing": "$20/mo (ChatGPT Plus)",
+    "pricing": "ChatGPT Plus $20/mo",
     "pricingType": "Subscription",
     "startingPrice": 20,
     "currency": "USD",
-    "createdAt": "2024-03-01",
-    "updatedAt": "2024-03-15"
+    "affiliateLink": "",
+    "createdAt": "2024-03-10",
+    "updatedAt": "2024-03-20"
   },
   {
     "id": "10",
-    "title": "Jasper AI",
-    "slug": "jasper-ai",
-    "description": "AI content platform with real estate templates for listings, blogs, social posts, emails, and video scripts. Brand voice training.",
-    "shortDescription": "Real estate content templates: listings",
-    "categoryId": "social-media-content",
-    "categoryName": "Social Media & Content",
-    "website": "4.5",
+    "title": "Zapier AI",
+    "slug": "zapier-ai",
+    "description": "Automation platform with AI-powered workflows. Connect 6000+ apps, use AI to build zaps, parse documents, and extract data from emails.",
+    "shortDescription": "AI-powered automation across 6000+ apps.",
+    "categoryId": "productivity-automation",
+    "categoryName": "Productivity & Automation",
+    "website": "https://zapier.com",
     "email": "",
     "phone": "",
     "address": "",
     "city": "",
     "state": "",
     "country": "US",
-    "logo": "Web,Chrome Extension",
+    "logo": "https://zapier.com/logo.png",
     "images": [
-      "Solo agents",
-      "Teams",
-      "Marketing teams"
+      "https://zapier.com/screen1.png"
     ],
     "featured": false,
-    "verified": false,
-    "rating": 0,
-    "reviewCount": 0,
+    "verified": true,
+    "rating": 4.7,
+    "reviewCount": 3400,
     "tags": [
-      "49"
+      "automation",
+      "workflows",
+      "document-parsing",
+      "email-extraction"
     ],
     "keyFeatures": [
-      "USD"
+      "AI zap building",
+      "Document parsing",
+      "Email data extraction",
+      "6000+ integrations"
     ],
     "integrations": [
-      "content-writing",
-      "social-media",
-      "blog-posts",
-      "email-campaigns",
-      "brand-voice"
+      "Gmail",
+      "Slack",
+      "Google Sheets",
+      "HubSpot",
+      "Follow Up Boss"
     ],
     "platforms": [
-      "50+ templates",
-      "Brand voice",
-      "SEO mode",
-      "Team collaboration"
+      "Web"
     ],
     "targetUsers": [
-      "Surfer SEO",
-      "Grammarly",
-      "Zapier"
+      "Solo agents",
+      "Teams"
     ],
-    "pricing": "social.",
-    "pricingType": "https://jasper.ai",
-    "startingPrice": 0,
-    "currency": "Subscription",
-    "affiliateLink": "4.5",
-    "createdAt": "",
-    "updatedAt": ""
+    "pricing": "Free tier + paid from $19.99/mo",
+    "pricingType": "Freemium",
+    "startingPrice": 19.99,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-03-15",
+    "updatedAt": "2024-03-25"
   },
   {
     "id": "11",
-    "title": "REimagineHome",
-    "slug": "reimaginehome",
-    "description": "AI virtual staging, renovation visualization, and landscape design. Upload photo → see furnished/renovated versions instantly.",
-    "shortDescription": "Virtual staging + renovation visualization.",
-    "categoryId": "virtual-tours-staging",
-    "categoryName": "Virtual Tours & Staging",
-    "website": "https://reimaginehome.ai",
+    "title": "Canva Magic Studio",
+    "slug": "canva-magic-studio",
+    "description": "AI design tools for social media, listing presentations, flyers, and marketing materials. Magic Write, Magic Design, Magic Edit included.",
+    "shortDescription": "AI design suite for real estate marketing assets.",
+    "categoryId": "social-media-content",
+    "categoryName": "Social Media & Content",
+    "website": "https://canva.com",
     "email": "",
     "phone": "",
     "address": "",
     "city": "",
     "state": "",
     "country": "US",
-    "logo": "https://reimaginehome.ai/logo.png",
+    "logo": "https://canva.com/logo.png",
     "images": [
-      "https://reimaginehome.ai/screen1.png"
+      "https://canva.com/screen1.png"
     ],
     "featured": true,
     "verified": true,
-    "rating": 4.7,
-    "reviewCount": 78,
+    "rating": 4.8,
+    "reviewCount": 12000,
     "tags": [
-      "virtual-staging",
-      "renovation-visualization",
-      "landscape-design"
+      "design",
+      "social-media",
+      "presentations",
+      "flyers",
+      "video"
     ],
     "keyFeatures": [
-      "Multiple styles",
-      "Room-by-room",
-      "Exterior & landscape",
-      "API"
+      "Magic Write (copy)",
+      "Magic Design (layouts)",
+      "Magic Edit (photos)",
+      "Brand kit"
     ],
     "integrations": [
-      "MLS",
-      "Zillow",
-      "Custom API"
+      "Instagram",
+      "Facebook",
+      "LinkedIn",
+      "Mailchimp"
     ],
     "platforms": [
       "Web",
-      "API"
+      "Mobile App"
     ],
     "targetUsers": [
       "Solo agents",
       "Teams",
-      "Developers"
+      "Brokerages"
     ],
-    "pricing": "Freemium: 5 free, then $19/mo",
+    "pricing": "Free tier + Pro $14.99/mo",
     "pricingType": "Freemium",
-    "startingPrice": 19,
+    "startingPrice": 14.99,
     "currency": "USD",
-    "createdAt": "2024-03-10",
-    "updatedAt": "2024-03-12"
+    "affiliateLink": "",
+    "createdAt": "2024-03-20",
+    "updatedAt": "2024-03-28"
   },
   {
     "id": "12",
+    "title": "Predis.ai",
+    "slug": "predis-ai",
+    "description": "AI social media content generator for real estate. Creates posts, carousels, videos, and hashtags from a single prompt. Schedules directly to platforms.",
+    "shortDescription": "Generate & schedule RE social content from one prompt.",
+    "categoryId": "social-media-content",
+    "categoryName": "Social Media & Content",
+    "website": "https://predis.ai",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "logo": "https://predis.ai/logo.png",
+    "images": [
+      "https://predis.ai/screen1.png"
+    ],
+    "featured": false,
+    "verified": true,
+    "rating": 4.5,
+    "reviewCount": 320,
+    "tags": [
+      "social-media",
+      "content-generation",
+      "scheduling",
+      "hashtags",
+      "video"
+    ],
+    "keyFeatures": [
+      "Post generation",
+      "Carousel creation",
+      "Video creation",
+      "Auto-scheduling"
+    ],
+    "integrations": [
+      "Instagram",
+      "Facebook",
+      "LinkedIn",
+      "Twitter/X",
+      "TikTok"
+    ],
+    "platforms": [
+      "Web",
+      "Mobile App"
+    ],
+    "targetUsers": [
+      "Solo agents",
+      "Teams"
+    ],
+    "pricing": "Free tier + paid from $29/mo",
+    "pricingType": "Freemium",
+    "startingPrice": 29,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-03-25",
+    "updatedAt": "2024-04-01"
+  },
+  {
+    "id": "13",
     "title": "Matterport",
     "slug": "matterport",
-    "description": "3D digital twins for properties. AI-powered measurement, floor plans, and virtual tours. Hardware + software.",
-    "shortDescription": "3D digital twins & virtual tours with AI measurements.",
+    "description": "3D virtual tour platform with AI-powered dollhouse views, measurement tools, and schematic floor plans. Industry standard for immersive listings.",
+    "shortDescription": "3D virtual tours with AI dollhouse & floor plans.",
     "categoryId": "virtual-tours-staging",
     "categoryName": "Virtual Tours & Staging",
     "website": "https://matterport.com",
@@ -637,158 +710,231 @@ export const listings: Listing[] = [
     "images": [
       "https://matterport.com/screen1.png"
     ],
-    "featured": false,
+    "featured": true,
     "verified": true,
-    "rating": 4.6,
-    "reviewCount": 0,
+    "rating": 4.7,
+    "reviewCount": 890,
     "tags": [
       "3d-tours",
       "virtual-tours",
       "floor-plans",
-      "measurements",
-      "digital-twin"
+      "dollhouse-view",
+      "measurements"
     ],
     "keyFeatures": [
-      "Auto measurements",
+      "3D capture",
+      "Dollhouse view",
       "Floor plans",
-      "VR compatible",
-      "MLS embed"
+      "Measurement tools",
+      "VR compatible"
     ],
     "integrations": [
       "MLS",
       "Zillow",
       "Realtor.com",
-      "Redfin"
+      "Homes.com"
     ],
     "platforms": [
       "Web",
       "Mobile App",
-      "Hardware"
+      "VR Headset"
     ],
     "targetUsers": [
       "Solo agents",
       "Teams",
-      "Brokerages"
+      "Brokerages",
+      "Photographers"
     ],
-    "pricing": "From $9.99/mo + camera",
+    "pricing": "From $9.99/mo per space",
     "pricingType": "Subscription",
-    "startingPrice": 10,
+    "startingPrice": 9.99,
     "currency": "USD",
-    "createdAt": "2024-03-12",
-    "updatedAt": "2024-03-14"
-  },
-  {
-    "id": "13",
-    "title": "DealCheck",
-    "slug": "dealcheck",
-    "description": "Property analysis for flips, rentals, BRRRR. AI rent estimates, expense forecasting, and ROI projections. Mobile + web.",
-    "shortDescription": "Deal analyzer for flips",
-    "categoryId": "investment-deal-analysis",
-    "categoryName": "Investment & Deal Analysis",
-    "website": "4.8",
-    "email": "",
-    "phone": "",
-    "address": "",
-    "city": "",
-    "state": "",
-    "country": "US",
-    "logo": "Web,Mobile App",
-    "images": [
-      "Investors",
-      "Agents working with investors"
-    ],
-    "featured": false,
-    "verified": false,
-    "rating": 0,
-    "reviewCount": 0,
-    "tags": [
-      "19"
-    ],
-    "keyFeatures": [
-      "USD"
-    ],
-    "integrations": [
-      "deal-analysis",
-      "rental-estimates",
-      "roi-projections",
-      "flip-analysis"
-    ],
-    "platforms": [
-      "Rent estimates",
-      "Expense forecasting",
-      "ROI calc",
-      "Reports"
-    ],
-    "targetUsers": [
-      "Zillow",
-      "Redfin",
-      "Custom CSV"
-    ],
-    "pricing": "BRRRR.",
-    "pricingType": "https://dealcheck.io",
-    "startingPrice": 0,
-    "currency": "Freemium",
-    "affiliateLink": "4.8",
-    "createdAt": "",
-    "updatedAt": ""
+    "affiliateLink": "",
+    "createdAt": "2024-04-01",
+    "updatedAt": "2024-04-10"
   },
   {
     "id": "14",
-    "title": "RealtyMogul",
-    "slug": "realtymogul",
-    "description": "Commercial real estate investment platform with AI-powered deal screening, underwriting, and portfolio analytics.",
-    "shortDescription": "Commercial RE investment platform with AI screening.",
-    "categoryId": "investment-deal-analysis",
-    "categoryName": "Investment & Deal Analysis",
-    "website": "https://realtymogul.com",
+    "title": "Asteroom",
+    "slug": "asteroom",
+    "description": "Affordable 3D virtual tours using smartphone or 360 camera. AI stitching, floor plans, and MLS-compliant output. No subscription required.",
+    "shortDescription": "Low-cost 3D tours from smartphone. Pay per tour.",
+    "categoryId": "virtual-tours-staging",
+    "categoryName": "Virtual Tours & Staging",
+    "website": "https://asteroom.com",
     "email": "",
     "phone": "",
     "address": "",
     "city": "",
     "state": "",
     "country": "US",
-    "logo": "https://realtymogul.com/logo.png",
-    "images": [],
+    "logo": "https://asteroom.com/logo.png",
+    "images": [
+      "https://asteroom.com/screen1.png"
+    ],
     "featured": false,
-    "verified": false,
-    "rating": 4.3,
-    "reviewCount": 56,
+    "verified": true,
+    "rating": 4.4,
+    "reviewCount": 560,
     "tags": [
-      "commercial-re",
-      "deal-screening",
-      "underwriting",
-      "portfolio-analytics"
+      "3d-tours",
+      "virtual-tours",
+      "smartphone-capture",
+      "floor-plans",
+      "pay-per-use"
     ],
     "keyFeatures": [
-      "Deal screening",
-      "Automated underwriting",
-      "Portfolio tracking",
-      "Investor network"
+      "Phone capture",
+      "360 camera support",
+      "AI stitching",
+      "MLS export",
+      "No subscription"
     ],
     "integrations": [
-      "Custom API"
+      "MLS",
+      "Zillow",
+      "Realtor.com"
     ],
     "platforms": [
-      "Web"
+      "Web",
+      "Mobile App"
     ],
     "targetUsers": [
-      "Brokers",
-      "Investors",
-      "Institutions"
+      "Solo agents",
+      "Teams",
+      "Photographers"
     ],
-    "pricing": "Contact for pricing",
-    "pricingType": "Contact",
-    "startingPrice": 0,
+    "pricing": "From $19.99 per tour",
+    "pricingType": "Pay-per-use",
+    "startingPrice": 19.99,
     "currency": "USD",
-    "createdAt": "2024-03-18",
-    "updatedAt": "2024-03-20"
+    "affiliateLink": "",
+    "createdAt": "2024-04-05",
+    "updatedAt": "2024-04-12"
   },
   {
     "id": "15",
+    "title": "DealCheck",
+    "slug": "dealcheck",
+    "description": "Real estate investment analysis platform. AI-powered property analysis, cash flow projections, BRRRR calculator, and portfolio tracking.",
+    "shortDescription": "Investment analysis: cash flow, BRRRR, portfolio tracking.",
+    "categoryId": "investment-deal-analysis",
+    "categoryName": "Investment & Deal Analysis",
+    "website": "https://dealcheck.io",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "logo": "https://dealcheck.io/logo.png",
+    "images": [
+      "https://dealcheck.io/screen1.png"
+    ],
+    "featured": false,
+    "verified": true,
+    "rating": 4.8,
+    "reviewCount": 1200,
+    "tags": [
+      "investment-analysis",
+      "cash-flow",
+      "brrrr",
+      "portfolio-tracking",
+      "comps"
+    ],
+    "keyFeatures": [
+      "Property analysis",
+      "BRRRR calculator",
+      "Cash flow projections",
+      "Portfolio dashboard",
+      "Comps search"
+    ],
+    "integrations": [
+      "Zillow",
+      "Realtor.com",
+      "Rentometer"
+    ],
+    "platforms": [
+      "Web",
+      "Mobile App"
+    ],
+    "targetUsers": [
+      "Investors",
+      "Agents working with investors"
+    ],
+    "pricing": "Free tier + Pro $15/mo",
+    "pricingType": "Freemium",
+    "startingPrice": 15,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-04-10",
+    "updatedAt": "2024-04-18"
+  },
+  {
+    "id": "16",
+    "title": "RealNex",
+    "slug": "realnex",
+    "description": "Commercial real estate platform with AI-powered deal analysis, market data, comps, and client management. Built for CRE brokers and investors.",
+    "shortDescription": "CRE deal analysis, comps & market data platform.",
+    "categoryId": "investment-deal-analysis",
+    "categoryName": "Investment & Deal Analysis",
+    "website": "https://realnex.com",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "logo": "https://realnex.com/logo.png",
+    "images": [
+      "https://realnex.com/screen1.png"
+    ],
+    "featured": false,
+    "verified": false,
+    "rating": 4.3,
+    "reviewCount": 210,
+    "tags": [
+      "commercial-real-estate",
+      "deal-analysis",
+      "comps",
+      "market-data",
+      "cre"
+    ],
+    "keyFeatures": [
+      "Deal analysis",
+      "Comps database",
+      "Market reports",
+      "Client CRM",
+      "Marketing materials"
+    ],
+    "integrations": [
+      "CoStar",
+      "LoopNet",
+      "Custom API"
+    ],
+    "platforms": [
+      "Web",
+      "Mobile App"
+    ],
+    "targetUsers": [
+      "CRE brokers",
+      "Investors",
+      "Appraisers"
+    ],
+    "pricing": "From $99/mo",
+    "pricingType": "Subscription",
+    "startingPrice": 99,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-04-15",
+    "updatedAt": "2024-04-22"
+  },
+  {
+    "id": "17",
     "title": "DocuSign AI",
     "slug": "docusign-ai",
-    "description": "AI-powered document review, clause extraction, and compliance checking for real estate contracts and disclosures.",
-    "shortDescription": "AI contract review & compliance for transactions.",
+    "description": "E-signature platform with AI-powered agreement analysis, risk scoring, and automated compliance checks. Integrates with major real estate platforms.",
+    "shortDescription": "E-signatures + AI agreement analysis & compliance.",
     "categoryId": "transaction-compliance",
     "categoryName": "Transaction & Compliance",
     "website": "https://docusign.com",
@@ -804,25 +950,27 @@ export const listings: Listing[] = [
     ],
     "featured": false,
     "verified": true,
-    "rating": 4.7,
-    "reviewCount": 0,
+    "rating": 4.6,
+    "reviewCount": 5000,
     "tags": [
-      "contract-review",
+      "e-signature",
+      "agreement-analysis",
       "compliance",
-      "clause-extraction",
-      "e-signature"
+      "risk-scoring",
+      "transaction-management"
     ],
     "keyFeatures": [
-      "Clause extraction",
+      "E-signatures",
+      "AI agreement review",
       "Risk scoring",
-      "Auto-compliance",
-      "Audit trail"
+      "Compliance checks",
+      "Template library"
     ],
     "integrations": [
-      "MLS",
-      "Zillow",
       "Salesforce",
-      "Custom API"
+      "Zillow",
+      "Dotloop",
+      "SkySlope"
     ],
     "platforms": [
       "Web",
@@ -831,22 +979,22 @@ export const listings: Listing[] = [
     "targetUsers": [
       "Solo agents",
       "Teams",
-      "Brokerages",
-      "Attorneys"
+      "Brokerages"
     ],
-    "pricing": "From $10/mo + AI add-on",
+    "pricing": "From $10/mo per user",
     "pricingType": "Subscription",
     "startingPrice": 10,
     "currency": "USD",
-    "createdAt": "2024-03-20",
-    "updatedAt": "2024-03-22"
+    "affiliateLink": "",
+    "createdAt": "2024-04-20",
+    "updatedAt": "2024-04-28"
   },
   {
-    "id": "16",
-    "title": "Skyslope",
+    "id": "18",
+    "title": "SkySlope",
     "slug": "skyslope",
-    "description": "Transaction management with AI document audit, compliance checking, and broker review automation. Popular with brokerages.",
-    "shortDescription": "Transaction management + AI compliance audit.",
+    "description": "Transaction management platform with AI-powered compliance review, document audit, and brokerage oversight tools. Popular with brokerages.",
+    "shortDescription": "Transaction mgmt + AI compliance for brokerages.",
     "categoryId": "transaction-compliance",
     "categoryName": "Transaction & Compliance",
     "website": "https://skyslope.com",
@@ -861,25 +1009,27 @@ export const listings: Listing[] = [
       "https://skyslope.com/screen1.png"
     ],
     "featured": false,
-    "verified": false,
+    "verified": true,
     "rating": 4.5,
-    "reviewCount": 320,
+    "reviewCount": 1200,
     "tags": [
       "transaction-management",
-      "compliance-audit",
-      "broker-review",
-      "document-audit"
+      "compliance",
+      "document-audit",
+      "brokerage-oversight"
     ],
     "keyFeatures": [
-      "AI doc audit",
-      "Compliance check",
-      "Broker workflow",
-      "Digital signatures"
+      "Compliance review",
+      "Document audit",
+      "Brokerage dashboard",
+      "E-signature integration",
+      "Forms library"
     ],
     "integrations": [
-      "MLS",
       "DocuSign",
-      "Custom API"
+      "Dotloop",
+      "MLS",
+      "QuickBooks"
     ],
     "platforms": [
       "Web",
@@ -887,14 +1037,132 @@ export const listings: Listing[] = [
     ],
     "targetUsers": [
       "Brokerages",
+      "Transaction coordinators"
+    ],
+    "pricing": "Contact for brokerage pricing",
+    "pricingType": "Contact",
+    "startingPrice": 0,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-04-25",
+    "updatedAt": "2024-05-01"
+  },
+  {
+    "id": "19",
+    "title": "Offrs",
+    "slug": "offrs",
+    "description": "Predictive analytics platform that identifies homeowners likely to sell in the next 6-12 months. Smart data for targeted farming and lead generation.",
+    "shortDescription": "Predictive analytics: find likely sellers before they list.",
+    "categoryId": "lead-generation",
+    "categoryName": "Lead Generation",
+    "website": "https://offrs.com",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "logo": "https://offrs.com/logo.png",
+    "images": [
+      "https://offrs.com/screen1.png"
+    ],
+    "featured": false,
+    "verified": true,
+    "rating": 4.4,
+    "reviewCount": 340,
+    "tags": [
+      "predictive-analytics",
+      "seller-leads",
+      "farming",
+      "smart-data",
+      "targeted-marketing"
+    ],
+    "keyFeatures": [
+      "Seller prediction",
+      "Smart farming",
+      "Lead scoring",
+      "Market reports",
+      "CRM integration"
+    ],
+    "integrations": [
+      "Follow Up Boss",
+      "kvCORE",
+      "BoomTown",
+      "LionDesk"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "targetUsers": [
+      "Solo agents",
+      "Teams",
+      "Brokerages"
+    ],
+    "pricing": "From $299/mo per zip code",
+    "pricingType": "Subscription",
+    "startingPrice": 299,
+    "currency": "USD",
+    "affiliateLink": "",
+    "createdAt": "2024-05-01",
+    "updatedAt": "2024-05-10"
+  },
+  {
+    "id": "20",
+    "title": "Revaluate",
+    "slug": "revaluate",
+    "description": "AI-powered mover prediction that scores contacts by likelihood to move. Helps agents prioritize outreach to past clients and sphere of influence.",
+    "shortDescription": "Predict which contacts will move next. Prioritize outreach.",
+    "categoryId": "lead-generation",
+    "categoryName": "Lead Generation",
+    "website": "https://revaluate.com",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "country": "US",
+    "logo": "https://revaluate.com/logo.png",
+    "images": [
+      "https://revaluate.com/screen1.png"
+    ],
+    "featured": false,
+    "verified": true,
+    "rating": 4.3,
+    "reviewCount": 180,
+    "tags": [
+      "mover-prediction",
+      "sphere-of-influence",
+      "lead-scoring",
+      "predictive-analytics",
+      "past-clients"
+    ],
+    "keyFeatures": [
+      "Move likelihood scoring",
+      "Contact prioritization",
+      "Automated alerts",
+      "CRM sync",
+      "ROI tracking"
+    ],
+    "integrations": [
+      "Follow Up Boss",
+      "kvCORE",
+      "BoomTown",
+      "LionDesk"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "targetUsers": [
+      "Solo agents",
       "Teams"
     ],
-    "pricing": "From $30/mo per agent",
+    "pricing": "From $49/mo per 1000 contacts",
     "pricingType": "Subscription",
-    "startingPrice": 30,
+    "startingPrice": 49,
     "currency": "USD",
-    "createdAt": "2024-03-22",
-    "updatedAt": "2024-03-25"
+    "affiliateLink": "",
+    "createdAt": "2024-05-05",
+    "updatedAt": "2024-05-15"
   }
 ];
 
