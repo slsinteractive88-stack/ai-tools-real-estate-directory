@@ -33,7 +33,6 @@ export function ListingCard({ listing, variant = 'default', showAdLabel = false 
         <div>
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
             <span>{listing.categoryName}</span>
-            <span>•</span>
             <span>{listing.city}, {listing.state}</span>
           </div>
           <Link href={`/listings/${listing.slug}`} className="block">
