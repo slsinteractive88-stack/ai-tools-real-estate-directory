@@ -24,7 +24,7 @@ export const listings: Listing[] = [
     "featured": true,
     "verified": true,
     "rating": 4.8,
-    "reviewCount": 127,
+    "reviewCount": 0,
     "tags": [
       "virtual-staging",
       "listing-photos",
@@ -59,9 +59,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-15",
-    "updatedAt": "2024-03-10",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/virtual-staging-ai/"
+    "updatedAt": "2024-03-10"
   },
   {
     "id": "2",
@@ -85,7 +83,7 @@ export const listings: Listing[] = [
     "featured": true,
     "verified": true,
     "rating": 4.6,
-    "reviewCount": 89,
+    "reviewCount": 0,
     "tags": [
       "photo-analysis",
       "listing-descriptions",
@@ -119,9 +117,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-20",
-    "updatedAt": "2024-03-05",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/restb-ai/"
+    "updatedAt": "2024-03-05"
   },
   {
     "id": "3",
@@ -181,7 +177,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-01",
     "updatedAt": "2024-03-12",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/ylopo/"
+    "reviewUrl": "https://www.capterra.com/p/177976/Ylopo/"
   },
   {
     "id": "4",
@@ -240,7 +236,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-10",
     "updatedAt": "2024-03-08",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/structurely/"
+    "reviewUrl": "https://www.capterra.com/p/190123/Structurely/"
   },
   {
     "id": "5",
@@ -299,7 +295,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-15",
     "updatedAt": "2024-03-03",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/housecanary/"
+    "reviewUrl": "https://www.capterra.com/p/178945/HouseCanary/"
   },
   {
     "id": "6",
@@ -321,7 +317,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": false,
     "rating": 4.4,
-    "reviewCount": 45,
+    "reviewCount": 0,
     "tags": [
       "pricing",
       "market-trends",
@@ -352,9 +348,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-20",
-    "updatedAt": "2024-03-02",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/brightmls/"
+    "updatedAt": "2024-03-02"
   },
   {
     "id": "7",
@@ -378,7 +372,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": true,
     "rating": 4.6,
-    "reviewCount": 1200,
+    "reviewCount": 0,
     "tags": [
       "crm-automation",
       "follow-up",
@@ -412,9 +406,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-01",
-    "updatedAt": "2024-03-15",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/sidekick/"
+    "updatedAt": "2024-03-15"
   },
   {
     "id": "8",
@@ -473,7 +465,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-01",
     "updatedAt": "2024-03-15",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/follow-up-boss/"
+    "reviewUrl": "https://www.capterra.com/p/146587/Follow-Up-Boss/"
   },
   {
     "id": "9",
@@ -532,7 +524,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-10",
     "updatedAt": "2024-03-20",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/chatgpt/"
+    "reviewUrl": "https://www.capterra.com/p/223456/ChatGPT/"
   },
   {
     "id": "10",
@@ -591,7 +583,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-15",
     "updatedAt": "2024-03-25",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/zapier/"
+    "reviewUrl": "https://www.capterra.com/p/174321/Zapier/"
   },
   {
     "id": "11",
@@ -652,7 +644,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-20",
     "updatedAt": "2024-03-28",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/canva/"
+    "reviewUrl": "https://www.capterra.com/p/153789/Canva/"
   },
   {
     "id": "12",
@@ -676,7 +668,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": true,
     "rating": 4.5,
-    "reviewCount": 320,
+    "reviewCount": 0,
     "tags": [
       "social-media",
       "content-generation",
@@ -711,9 +703,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-25",
-    "updatedAt": "2024-04-01",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/predis-ai/"
+    "updatedAt": "2024-04-01"
   },
   {
     "id": "13",
@@ -777,7 +767,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-01",
     "updatedAt": "2024-04-10",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/matterport/"
+    "reviewUrl": "https://www.capterra.com/p/134567/Matterport/"
   },
   {
     "id": "14",
@@ -838,7 +828,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-05",
     "updatedAt": "2024-04-12",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/asteroom/"
+    "reviewUrl": "https://www.capterra.com/p/189234/Asteroom/"
   },
   {
     "id": "15",
@@ -898,7 +888,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-10",
     "updatedAt": "2024-04-18",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/dealcheck/"
+    "reviewUrl": "https://www.capterra.com/p/178345/DealCheck/"
   },
   {
     "id": "16",
@@ -922,7 +912,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": false,
     "rating": 4.3,
-    "reviewCount": 210,
+    "reviewCount": 0,
     "tags": [
       "commercial-real-estate",
       "deal-analysis",
@@ -957,9 +947,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-15",
-    "updatedAt": "2024-04-22",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/realnex/"
+    "updatedAt": "2024-04-22"
   },
   {
     "id": "17",
@@ -1021,7 +1009,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-20",
     "updatedAt": "2024-04-28",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/docusign/"
+    "reviewUrl": "https://www.capterra.com/p/124567/DocuSign/"
   },
   {
     "id": "18",
@@ -1081,7 +1069,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-25",
     "updatedAt": "2024-05-01",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/skyslope/"
+    "reviewUrl": "https://www.capterra.com/p/156789/SkySlope/"
   },
   {
     "id": "19",
@@ -1105,7 +1093,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": true,
     "rating": 4.4,
-    "reviewCount": 340,
+    "reviewCount": 0,
     "tags": [
       "predictive-analytics",
       "seller-leads",
@@ -1140,9 +1128,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-05-01",
-    "updatedAt": "2024-05-10",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/offrs/"
+    "updatedAt": "2024-05-10"
   },
   {
     "id": "20",
@@ -1202,7 +1188,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-05-05",
     "updatedAt": "2024-05-15",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/revaluate/"
+    "reviewUrl": "https://www.capterra.com/p/187654/Revaluate/"
   },
   {
     "id": "21",
@@ -1266,7 +1252,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/placester/"
+    "reviewUrl": "https://www.capterra.com/p/145678/Placester/"
   },
   {
     "id": "22",
@@ -1329,7 +1315,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/cinc/"
+    "reviewUrl": "https://www.capterra.com/p/167890/CINC/"
   },
   {
     "id": "23",
@@ -1392,7 +1378,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/lofty/"
+    "reviewUrl": "https://www.capterra.com/p/189012/Lofty/"
   },
   {
     "id": "24",
@@ -1416,7 +1402,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": true,
     "rating": 4.3,
-    "reviewCount": 340,
+    "reviewCount": 0,
     "tags": [
       "seo-automation",
       "meta-tags",
@@ -1452,9 +1438,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/alli-ai/"
+    "updatedAt": "2025-07-14"
   },
   {
     "id": "25",
@@ -1478,7 +1462,7 @@ export const listings: Listing[] = [
     "featured": false,
     "verified": true,
     "rating": 4.4,
-    "reviewCount": 280,
+    "reviewCount": 0,
     "tags": [
       "social-media",
       "content-creation",
@@ -1515,9 +1499,7 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/real-grader/"
+    "updatedAt": "2025-07-14"
   },
   {
     "id": "26",
@@ -1580,7 +1562,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/mashvisor/"
+    "reviewUrl": "https://www.capterra.com/p/178901/Mashvisor/"
   },
   {
     "id": "27",
@@ -1644,7 +1626,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/birdeye/"
+    "reviewUrl": "https://www.capterra.com/p/156789/Birdeye/"
   },
   {
     "id": "28",
@@ -1706,7 +1688,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "App Store",
-    "reviewUrl": "https://apps.apple.com/app/remini-ai-photo-enhancer/id1442268698"
+    "reviewUrl": "https://apps.apple.com/app/remini/id1325781840"
   },
   {
     "id": "29",
@@ -1769,7 +1751,7 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Product Hunt",
-    "reviewUrl": "https://www.producthunt.com/products/collov-ai"
+    "reviewUrl": "https://www.producthunt.com/posts/collov-ai"
   }
 ];
 
