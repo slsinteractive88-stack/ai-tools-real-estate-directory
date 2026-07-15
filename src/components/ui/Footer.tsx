@@ -16,7 +16,6 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/categories" className="hover:text-white transition">Categories</Link></li>
               <li><Link href="/listings" className="hover:text-white transition">All Listings</Link></li>
-              <li><Link href="/add-listing" className="hover:text-white transition">Add Your Business</Link></li>
             </ul>
           </nav>
           <nav>
@@ -25,13 +24,6 @@ export function Footer() {
               <li><Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-white transition">Terms of Service</Link></li>
               <li><Link href="/cookies" className="hover:text-white transition">Cookie Policy</Link></li>
-            </ul>
-          </nav>
-          <nav>
-            <h4 className="text-white font-semibold mb-3">Contact</h4>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/contact" className="hover:text-white transition">Contact Us</Link></li>
-              <li><Link href="/advertise" className="hover:text-white transition">Advertise</Link></li>
             </ul>
           </nav>
         </div>
