@@ -33,7 +33,9 @@ export function ListingCard({ listing, variant = 'default', showAdLabel = false 
         <div>
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
             <span>{listing.categoryName}</span>
-            <span>{listing.city}, {listing.state}</span>
+            {(listing.city || listing.state) && (
+              <span>{[listing.city, listing.state].filter(Boolean).join(', ')}</span>
+            )}
           </div>
           <Link href={`/listings/${listing.slug}`} className="block">
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition mb-2 line-clamp-1">
