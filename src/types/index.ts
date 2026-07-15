@@ -42,6 +42,7 @@ export interface Listing {
   affiliateLink?: string;
   createdAt: string;
   updatedAt: string;
+  ratingVerifiedAt?: string;
 }
 
 export interface AdSlot {

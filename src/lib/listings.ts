@@ -61,7 +61,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-01-15",
     "updatedAt": "2024-03-10",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/virtual-staging-ai/reviews"
+    "reviewUrl": "https://www.g2.com/products/virtual-staging-ai/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "2",
@@ -121,7 +122,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-01-20",
     "updatedAt": "2024-03-05",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/restb-ai/reviews"
+    "reviewUrl": "https://www.g2.com/products/restb-ai/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "3",
@@ -181,7 +183,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-01",
     "updatedAt": "2024-03-12",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/ylopo/reviews"
+    "reviewUrl": "https://www.g2.com/products/ylopo/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "4",
@@ -240,7 +243,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-10",
     "updatedAt": "2024-03-08",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/structurely/reviews"
+    "reviewUrl": "https://www.g2.com/products/structurely/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "5",
@@ -299,7 +303,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-15",
     "updatedAt": "2024-03-03",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/housecanary/reviews"
+    "reviewUrl": "https://www.g2.com/products/housecanary/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "6",
@@ -354,7 +359,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-02-20",
     "updatedAt": "2024-03-02",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/brightmls-ai/reviews"
+    "reviewUrl": "https://www.g2.com/products/brightmls-ai/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "7",
@@ -414,7 +420,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-01",
     "updatedAt": "2024-03-15",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/sidekick/reviews"
+    "reviewUrl": "https://www.g2.com/products/sidekick/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "8",
@@ -473,7 +480,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-01",
     "updatedAt": "2024-03-15",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/follow-up-boss/reviews"
+    "reviewUrl": "https://www.g2.com/products/follow-up-boss/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "9",
@@ -496,8 +504,8 @@ export const listings: Listing[] = [
     ],
     "featured": true,
     "verified": true,
-    "rating": 4.9,
-    "reviewCount": 0,
+    "rating": 4.7,
+    "reviewCount": 1200,
     "tags": [
       "writing",
       "listing-descriptions",
@@ -532,7 +540,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-10",
     "updatedAt": "2024-03-20",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/chatgpt/reviews"
+    "reviewUrl": "https://www.g2.com/products/chatgpt/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "10",
@@ -591,7 +600,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-15",
     "updatedAt": "2024-03-25",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/zapier/reviews"
+    "reviewUrl": "https://www.g2.com/products/zapier/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "11",
@@ -652,7 +662,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-20",
     "updatedAt": "2024-03-28",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/canva/reviews"
+    "reviewUrl": "https://www.g2.com/products/canva/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "12",
@@ -713,7 +724,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-03-25",
     "updatedAt": "2024-04-01",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/predis-ai/reviews"
+    "reviewUrl": "https://www.g2.com/products/predis-ai/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "13",
@@ -777,7 +789,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-01",
     "updatedAt": "2024-04-10",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/matterport/reviews"
+    "reviewUrl": "https://www.g2.com/products/matterport/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "14",
@@ -838,7 +851,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-05",
     "updatedAt": "2024-04-12",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/asteroom/reviews"
+    "reviewUrl": "https://www.g2.com/products/asteroom/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "15",
@@ -898,7 +912,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-10",
     "updatedAt": "2024-04-18",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/dealcheck/reviews"
+    "reviewUrl": "https://www.g2.com/products/dealcheck/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "16",
@@ -959,7 +974,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-15",
     "updatedAt": "2024-04-22",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/realnex/reviews"
+    "reviewUrl": "https://www.g2.com/products/realnex/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "17",
@@ -1021,7 +1037,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-20",
     "updatedAt": "2024-04-28",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/docusign/reviews"
+    "reviewUrl": "https://www.g2.com/products/docusign/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "18",
@@ -1081,7 +1098,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-04-25",
     "updatedAt": "2024-05-01",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/skyslope/reviews"
+    "reviewUrl": "https://www.g2.com/products/skyslope/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "19",
@@ -1142,7 +1160,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-05-01",
     "updatedAt": "2024-05-10",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/offrs/reviews"
+    "reviewUrl": "https://www.g2.com/products/offrs/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "20",
@@ -1202,7 +1221,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-05-05",
     "updatedAt": "2024-05-15",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/revaluate/reviews"
+    "reviewUrl": "https://www.g2.com/products/revaluate/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "21",
@@ -1266,7 +1286,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/placester/reviews"
+    "reviewUrl": "https://www.g2.com/products/placester/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "22",
@@ -1329,7 +1350,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/cinc/reviews"
+    "reviewUrl": "https://www.g2.com/products/cinc/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "23",
@@ -1392,7 +1414,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/lofty/reviews"
+    "reviewUrl": "https://www.g2.com/products/lofty/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "24",
@@ -1454,7 +1477,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/alli-ai/reviews"
+    "reviewUrl": "https://www.g2.com/products/alli-ai/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "25",
@@ -1517,7 +1541,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/real-grader/reviews"
+    "reviewUrl": "https://www.g2.com/products/real-grader/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "26",
@@ -1580,7 +1605,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/mashvisor/reviews"
+    "reviewUrl": "https://www.g2.com/products/mashvisor/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "27",
@@ -1644,7 +1670,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "G2",
-    "reviewUrl": "https://www.g2.com/products/birdeye/reviews"
+    "reviewUrl": "https://www.g2.com/products/birdeye/reviews",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "28",
@@ -1706,7 +1733,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "App Store",
-    "reviewUrl": "https://apps.apple.com/app/remini/id1325781840"
+    "reviewUrl": "https://apps.apple.com/app/remini/id1325781840",
+    "ratingVerifiedAt": "2026-07-14"
   },
   {
     "id": "29",
@@ -1769,7 +1797,8 @@ export const listings: Listing[] = [
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
     "reviewSource": "Product Hunt",
-    "reviewUrl": "https://www.producthunt.com/posts/collov-ai"
+    "reviewUrl": "https://www.producthunt.com/posts/collov-ai",
+    "ratingVerifiedAt": "2026-07-14"
   }
 ];
 
