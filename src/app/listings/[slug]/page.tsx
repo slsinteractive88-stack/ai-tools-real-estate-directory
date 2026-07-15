@@ -59,7 +59,7 @@ export default async function ListingPage({ params }: ListingPageProps) {
                 <div className="flex flex-wrap gap-2 mb-3">
                   <span className="badge bg-primary-50 text-primary-700">{listing.categoryName}</span>
                   {listing.verified && <span className="badge bg-green-50 text-green-700 flex items-center gap-1">Verified</span>}
-                  {listing.featured && <span className="badge bg-yellow-50 text-yellow-700">Featured</span>}
+                  {listing.featured && <span className="badge bg-yellow-50 text-yellow-700">Editor's Pick</span>}
                 </div>
                 <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">{listing.title}</h1>
                 <div className="flex flex-wrap items-center gap-4 mt-4 text-gray-600 text-sm">

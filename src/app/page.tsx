@@ -68,11 +68,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Tools */}
+      {/* Editor's Picks */}
       <section className="py-10 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Featured Tools</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Editor's Picks</h2>
             <Link href="/listings?featured=true" className="text-primary-600 hover:underline font-medium">View All →</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
