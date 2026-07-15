@@ -72,25 +72,17 @@ export function getCategoryListings(categorySlug: string): Listing[] {
   fs.appendFileSync(outputPath, helpers);
   console.log('Added helper functions');
 
-  // Generate categories
-  const uniqueCategories = Array.from(new Set(listings.map(l => l.categoryId)));
-  const categories = uniqueCategories
-    .map((id, idx) => {
-      const sample = listings.find(l => l.categoryId === id);
-      return {
-        id: String(idx + 1),
-        name: sample?.categoryName || '',
-        slug: id,
-        description: `AI tools for ${sample?.categoryName.toLowerCase()}`,
-        icon: '🔧',
-        count: listings.filter(l => l.categoryId === id).length,
-      };
-    });
+  // Generate categories from JSON (use icons defined in data/tools.json)
+  const categories = data.categories.map((cat: any, idx: number) => ({
+    id: String(idx + 1),
+    name: cat.name,
+    slug: cat.id,
+    description: cat.description,
+    icon: cat.icon,
+    count: cat.toolCount,
+  }));
 
-  const catOutput = `import { Category } from '@/types';
-
-export const categories: Category[] = ${JSON.stringify(categories, null, 2)};
-`;
+  const catOutput = `import { Category } from '@/types';\n\nexport const categories: Category[] = ${JSON.stringify(categories, null, 2)};\n`;
   fs.writeFileSync(path.join(process.cwd(), 'src/lib/categories.ts'), catOutput);
   console.log(`Generated categories.ts with ${categories.length} categories`);
 }

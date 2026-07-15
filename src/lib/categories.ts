@@ -5,72 +5,72 @@ export const categories: Category[] = [
     "id": "1",
     "name": "Listing Marketing",
     "slug": "listing-marketing",
-    "description": "AI tools for listing marketing",
-    "icon": "🔧",
-    "count": 3
+    "description": "Tools for creating, enhancing, and marketing property listings",
+    "icon": "🏠",
+    "count": 4
   },
   {
     "id": "2",
     "name": "Lead Generation",
     "slug": "lead-generation",
-    "description": "AI tools for lead generation",
-    "icon": "🔧",
-    "count": 5
+    "description": "AI-powered lead generation, qualification, and nurturing tools",
+    "icon": "🎯",
+    "count": 8
   },
   {
     "id": "3",
     "name": "Market Analysis",
     "slug": "market-analysis",
-    "description": "AI tools for market analysis",
-    "icon": "🔧",
-    "count": 3
+    "description": "Property valuation, market forecasting, and investment analytics",
+    "icon": "📊",
+    "count": 5
   },
   {
     "id": "4",
     "name": "Client Management",
     "slug": "client-management",
-    "description": "AI tools for client management",
-    "icon": "🔧",
-    "count": 4
+    "description": "CRM automation, client communication, and relationship management",
+    "icon": "🤝",
+    "count": 6
   },
   {
     "id": "5",
     "name": "Productivity & Automation",
     "slug": "productivity-automation",
-    "description": "AI tools for productivity & automation",
-    "icon": "🔧",
-    "count": 4
+    "description": "AI writing, workflow automation, SEO, and productivity tools",
+    "icon": "⚡",
+    "count": 5
   },
   {
     "id": "6",
     "name": "Social Media & Content",
     "slug": "social-media-content",
-    "description": "AI tools for social media & content",
-    "icon": "🔧",
+    "description": "Social media content creation, scheduling, and design tools",
+    "icon": "📱",
     "count": 3
   },
   {
     "id": "7",
     "name": "Virtual Tours & Staging",
     "slug": "virtual-tours-staging",
-    "description": "AI tools for virtual tours & staging",
-    "icon": "🔧",
-    "count": 3
+    "description": "3D virtual tours, virtual staging, and immersive property experiences",
+    "icon": "🎥",
+    "count": 4
   },
   {
     "id": "8",
     "name": "Investment & Deal Analysis",
     "slug": "investment-deal-analysis",
-    "description": "AI tools for investment & deal analysis",
-    "icon": "🔧",
+    "description": "Property investment analysis, deal calculators, and portfolio management",
+    "icon": "💰",
     "count": 2
   },
   {
     "id": "9",
     "name": "Transaction & Compliance",
     "slug": "transaction-compliance",
-    "description": "AI tools for transaction & compliance",
-    "icon": "🔧",
+    "description": "Transaction management, e-signatures, and compliance tools",
+    "icon": "📋",
     "count": 2
   }
 ];
