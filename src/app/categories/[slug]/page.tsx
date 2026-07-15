@@ -18,7 +18,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const category = categories.find(c => c.slug === slug);
   if (!category) notFound();
 
-  const listings = getCategoryListings(category.id);
+  const listings = getCategoryListings(category.slug);
 
   return (
     <div className="min-h-screen py-12">
