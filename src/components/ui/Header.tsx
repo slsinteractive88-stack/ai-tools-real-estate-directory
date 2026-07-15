@@ -11,7 +11,6 @@ export function Header() {
         <div className="hidden md:flex items-center gap-6">
           <Link href="/categories" className="text-gray-600 hover:text-primary-600 transition font-medium">Categories</Link>
           <Link href="/listings" className="text-gray-600 hover:text-primary-600 transition font-medium">All Listings</Link>
-          <Link href="/add-listing" className="px-4 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition">Add Listing</Link>
         </div>
       </nav>
     </header>

@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
 import Link from 'next/link';
 import { getListing } from '@/lib/listings';
 import { AdSense } from '@/components/ads/AdSense';
@@ -70,12 +69,6 @@ export default async function ListingPage({ params }: ListingPageProps) {
                 </div>
               </header>
 
-              {listing.logo && (
-                <div className="relative aspect-video rounded-xl overflow-hidden mb-6 bg-gray-100">
-                  <Image src={listing.logo} alt={listing.title} fill className="object-cover" priority sizes="(max-width: 768px) 100vw, 66vw" />
-                </div>
-              )}
-
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg text-gray-700 leading-relaxed">{listing.description}</p>
               </div>
@@ -84,19 +77,6 @@ export default async function ListingPage({ params }: ListingPageProps) {
               <div className="my-8" aria-label="Advertisement">
                 <AdSense slotKey="inArticle" />
               </div>
-
-              {listing.images.length > 0 && (
-                <section className="mt-8">
-                  <h2 className="text-xl font-semibold text-gray-900 mb-4">Photos</h2>
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    {listing.images.map((img, i) => (
-                      <div key={i} className="relative aspect-video rounded-xl overflow-hidden bg-gray-100">
-                        <Image src={img} alt={`${listing.title} photo ${i + 1}`} fill className="object-cover" sizes="(max-width: 640px) 100vw, 50vw" />
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              )}
 
               <section className="mt-8 pt-8 border-t border-gray-100">
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">Tags</h2>

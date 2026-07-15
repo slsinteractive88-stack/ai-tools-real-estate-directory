@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Listing } from '@/types';
 
 interface ListingCardProps {
@@ -29,16 +28,6 @@ export function ListingCard({ listing, variant = 'default', showAdLabel = false 
           Featured
         </div>
       )}
-
-      <div className="relative w-full md:w-48 h-48 md:h-auto min-h-[180px] bg-gray-50 flex-shrink-0">
-        {listing.logo ? (
-          <Image src={listing.logo} alt={listing.title} fill className="object-cover p-4" sizes="192px" />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-4xl">
-            {listing.categoryName === 'Restaurants' ? '🍽️' : '🏢'}
-          </div>
-        )}
-      </div>
 
       <div className="flex-1 p-4 md:p-6 flex flex-col justify-between min-w-0">
         <div>
