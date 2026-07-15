@@ -56,7 +56,7 @@ export default function HomePage() {
             {categories.map((cat) => (
               <Link
                 key={cat.id}
-                href={`/listings?category=${cat.slug}`}
+                href={`/categories/${cat.slug}`}
                 className="card p-6 text-center group hover:border-primary-200 hover:shadow-lg transition"
               >
                 <div className="text-4xl mb-3">{cat.icon}</div>
