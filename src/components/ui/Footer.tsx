@@ -29,7 +29,6 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
           <p>&copy; {year} {siteConfig.name}. All rights reserved.</p>
-          <p>Not affiliated with Google AdSense. Ads by Google.</p>
         </div>
       </div>
     </footer>
