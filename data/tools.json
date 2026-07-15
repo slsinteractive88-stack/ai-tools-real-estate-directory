@@ -1162,6 +1162,555 @@
       "affiliateLink": "",
       "createdAt": "2024-05-05",
       "updatedAt": "2024-05-15"
+    },
+    {
+      "id": "21",
+      "title": "Placester",
+      "slug": "placester",
+      "description": "All-in-one real estate platform with AI-powered website builder, IDX/MLS integration, CRM, email marketing, and AI copywriter for blog posts and listing descriptions.",
+      "shortDescription": "AI website builder + CRM + marketing hub for agents.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://placester.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://placester.com/logo.png",
+      "images": [
+        "https://placester.com/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.4,
+      "reviewCount": 560,
+      "tags": [
+        "website-builder",
+        "idx-mls",
+        "crm",
+        "email-marketing",
+        "ai-copywriter",
+        "all-in-one"
+      ],
+      "keyFeatures": [
+        "Codeless IDX website builder",
+        "Built-in CRM with autoresponders",
+        "AI content writer for blogs/listings",
+        "SEO tools & area pages",
+        "Landing pages & email campaigns",
+        "Team/brokerage management"
+      ],
+      "integrations": [
+        "MLS/IDX",
+        "Zapier",
+        "Google Analytics",
+        "Facebook Pixel"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "$59–$599/mo (20% off annual)",
+      "pricingType": "Subscription",
+      "startingPrice": 59,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "22",
+      "title": "CINC",
+      "slug": "cinc",
+      "description": "AI-driven lead generation and CRM platform for real estate agents and teams. Automated lead capture, personalized follow-ups, home valuation landing pages, and referral network.",
+      "shortDescription": "Lead gen platform with AI conversations & seller landing pages.",
+      "categoryId": "lead-generation",
+      "categoryName": "Lead Generation",
+      "website": "https://cinc.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://cinc.com/logo.png",
+      "images": [
+        "https://cinc.com/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.5,
+      "reviewCount": 890,
+      "tags": [
+        "lead-generation",
+        "ai-conversations",
+        "seller-valuation",
+        "crm",
+        "referral-network"
+      ],
+      "keyFeatures": [
+        "Automatic lead capture & routing",
+        "AI-powered lead conversations 24/7",
+        "Home evaluation landing pages",
+        "Built-in CRM & analytics",
+        "Mobile apps for lead management",
+        "Agent referral network"
+      ],
+      "integrations": [
+        "Follow Up Boss",
+        "BoomTown",
+        "kvCORE",
+        "Real Geeks"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "Custom pricing + $200/mo for AI features",
+      "pricingType": "Contact",
+      "startingPrice": 0,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "23",
+      "title": "Lofty",
+      "slug": "lofty",
+      "description": "AI-powered CRM automation platform for real estate. AI Copilot captures and qualifies leads 24/7, automated follow-ups, smart plans, property alerts, and transaction management.",
+      "shortDescription": "AI CRM with 24/7 lead capture, qualification & nurturing.",
+      "categoryId": "client-management",
+      "categoryName": "Client Management",
+      "website": "https://lofty.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://lofty.com/logo.png",
+      "images": [
+        "https://lofty.com/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.6,
+      "reviewCount": 720,
+      "tags": [
+        "crm-automation",
+        "ai-copilot",
+        "lead-qualification",
+        "smart-plans",
+        "transaction-management"
+      ],
+      "keyFeatures": [
+        "AI Copilot for lead capture/qualification",
+        "Pre-built email & marketing campaigns",
+        "Lead scoring & prioritization",
+        "Automated property alerts",
+        "Power dialer for outbound calls",
+        "Social media automation"
+      ],
+      "integrations": [
+        "Follow Up Boss",
+        "LionDesk",
+        "kvCORE",
+        "HubSpot"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "Custom pricing (demo available)",
+      "pricingType": "Contact",
+      "startingPrice": 0,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "24",
+      "title": "Alli AI",
+      "slug": "alli-ai",
+      "description": "AI-powered SEO automation platform for real estate websites. Automated meta tags, bulk editing, mobile optimization, site speed optimization, and real-time SEO deployment.",
+      "shortDescription": "Automate on-page SEO for real estate websites.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://alli.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://alli.ai/logo.png",
+      "images": [
+        "https://alli.ai/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.3,
+      "reviewCount": 340,
+      "tags": [
+        "seo-automation",
+        "meta-tags",
+        "bulk-editing",
+        "site-speed",
+        "local-seo"
+      ],
+      "keyFeatures": [
+        "Automated meta tags & descriptions",
+        "Bulk editing capabilities",
+        "Mobile optimization guidance",
+        "Site speed optimization",
+        "Real-time SEO deployment",
+        "Customizable SEO rules",
+        "CMS integrations"
+      ],
+      "integrations": [
+        "WordPress",
+        "Shopify",
+        "Custom CMS"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "$399–$699/mo (10-day trial, 17% off annual)",
+      "pricingType": "Subscription",
+      "startingPrice": 399,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "25",
+      "title": "Real Grader",
+      "slug": "real-grader",
+      "description": "AI social media platform for real estate. Automated content creation, AI-generated captions and hashtags, scheduled posting, digital business cards (InstaCard), and reputation management.",
+      "shortDescription": "AI social media content, scheduling & reputation for agents.",
+      "categoryId": "social-media-content",
+      "categoryName": "Social Media & Content",
+      "website": "https://realgrader.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://realgrader.ai/logo.png",
+      "images": [
+        "https://realgrader.ai/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.4,
+      "reviewCount": 280,
+      "tags": [
+        "social-media",
+        "content-creation",
+        "scheduling",
+        "hashtags",
+        "reputation-management",
+        "instaCard"
+      ],
+      "keyFeatures": [
+        "Automated social media content creation",
+        "AI-generated captions & trending hashtags",
+        "Scheduled posting across platforms",
+        "Digital business card (InstaCard)",
+        "Online reputation management",
+        "Performance analytics"
+      ],
+      "integrations": [
+        "Instagram",
+        "Facebook",
+        "LinkedIn",
+        "Twitter/X"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams"
+      ],
+      "pricing": "$97–$397/mo (17% off annual, 30-day InstaCard trial)",
+      "pricingType": "Subscription",
+      "startingPrice": 97,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "26",
+      "title": "Mashvisor",
+      "slug": "mashvisor",
+      "description": "AI-powered real estate market analysis platform. Investment property analytics, rental income projections, occupancy tracking, neighborhood heatmaps, and Airbnb performance estimates.",
+      "shortDescription": "Market analysis: rental projections, heatmaps, ROI calculators.",
+      "categoryId": "market-analysis",
+      "categoryName": "Market Analysis",
+      "website": "https://mashvisor.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://mashvisor.com/logo.png",
+      "images": [
+        "https://mashvisor.com/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.7,
+      "reviewCount": 1100,
+      "tags": [
+        "investment-analysis",
+        "rental-projections",
+        "occupancy-rates",
+        "heatmaps",
+        "roi-calculators",
+        "airbnb-analytics"
+      ],
+      "keyFeatures": [
+        "Investment property analytics",
+        "Rental income projections",
+        "Occupancy rate tracking",
+        "Neighborhood heatmaps",
+        "Comparable property analysis",
+        "ROI calculators",
+        "Airbnb performance estimates"
+      ],
+      "integrations": [
+        "Zillow",
+        "Realtor.com",
+        "Rentometer"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Investors",
+        "Agents working with investors"
+      ],
+      "pricing": "$24.99–$119.99/mo (annual, no free trial)",
+      "pricingType": "Subscription",
+      "startingPrice": 24.99,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "27",
+      "title": "Birdeye",
+      "slug": "birdeye",
+      "description": "AI-powered reputation management platform. Automated review requests, sentiment analysis, centralized review dashboard, social media integration, and multi-location support for brokerages.",
+      "shortDescription": "Automated reviews, sentiment analysis & reputation monitoring.",
+      "categoryId": "client-management",
+      "categoryName": "Client Management",
+      "website": "https://birdeye.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://birdeye.com/logo.png",
+      "images": [
+        "https://birdeye.com/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.6,
+      "reviewCount": 4200,
+      "tags": [
+        "reputation-management",
+        "review-requests",
+        "sentiment-analysis",
+        "review-monitoring",
+        "multi-location"
+      ],
+      "keyFeatures": [
+        "Automated review requests",
+        "AI-powered sentiment analysis",
+        "Centralized review dashboard",
+        "Social media & Google integration",
+        "Customizable response templates",
+        "Real-time reputation monitoring",
+        "Multi-location support"
+      ],
+      "integrations": [
+        "Google Reviews",
+        "Zillow",
+        "Facebook",
+        "Salesforce"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "Custom pricing (free trial available)",
+      "pricingType": "Contact",
+      "startingPrice": 0,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "28",
+      "title": "Remini",
+      "slug": "remini",
+      "description": "AI photo enhancer for property photos. Upscales images, reduces noise, sharpens details, fixes lighting/color, and restores faces/objects. Batch editing for MLS-ready listing photos.",
+      "shortDescription": "AI photo enhancement for MLS-ready listing images.",
+      "categoryId": "listing-marketing",
+      "categoryName": "Listing Marketing",
+      "website": "https://remini.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://remini.ai/logo.png",
+      "images": [
+        "https://remini.ai/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.7,
+      "reviewCount": 15000,
+      "tags": [
+        "photo-enhancement",
+        "image-upscaling",
+        "noise-reduction",
+        "color-correction",
+        "batch-editing"
+      ],
+      "keyFeatures": [
+        "AI image upscaling",
+        "Noise reduction",
+        "Detail sharpening",
+        "Face & object restoration",
+        "Lighting & color correction",
+        "Batch editing"
+      ],
+      "integrations": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "platforms": [
+        "Mobile App",
+        "Web"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Photographers"
+      ],
+      "pricing": "Free (ad-supported) + $17.99–$24.99/mo (7-day trial)",
+      "pricingType": "Freemium",
+      "startingPrice": 17.99,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "29",
+      "title": "Collov AI",
+      "slug": "collov-ai",
+      "description": "AI virtual staging and interior design platform. Upload empty room photos → get staged designs in seconds. Multiple style options, furniture replacement, and design visualization for listings.",
+      "shortDescription": "AI virtual staging with multiple styles & furniture replacement.",
+      "categoryId": "virtual-tours-staging",
+      "categoryName": "Virtual Tours & Staging",
+      "website": "https://collov.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://collov.ai/logo.png",
+      "images": [
+        "https://collov.ai/screen1.png"
+      ],
+      "featured": false,
+      "verified": true,
+      "rating": 4.5,
+      "reviewCount": 420,
+      "tags": [
+        "virtual-staging",
+        "interior-design",
+        "furniture-replacement",
+        "design-visualization",
+        "multiple-styles"
+      ],
+      "keyFeatures": [
+        "Instant AI virtual staging",
+        "Multiple design styles (modern, traditional, etc.)",
+        "Furniture replacement & removal",
+        "Design visualization for buyers",
+        "High-resolution output",
+        "API access for integration"
+      ],
+      "integrations": [
+        "MLS",
+        "Zillow",
+        "Realtor.com",
+        "API"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Photographers"
+      ],
+      "pricing": "Pay-per-image + subscription plans",
+      "pricingType": "Freemium",
+      "startingPrice": 0,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2024-07-14",
+      "updatedAt": "2025-07-14"
     }
   ],
   "categories": [
@@ -1170,49 +1719,49 @@
       "name": "Listing Marketing",
       "description": "Tools for creating, enhancing, and marketing property listings",
       "icon": "🏠",
-      "toolCount": 2
+      "toolCount": 4
     },
     {
       "id": "lead-generation",
       "name": "Lead Generation",
       "description": "AI-powered lead generation, qualification, and nurturing tools",
       "icon": "🎯",
-      "toolCount": 5
+      "toolCount": 8
     },
     {
       "id": "market-analysis",
       "name": "Market Analysis",
       "description": "Property valuation, market forecasting, and investment analytics",
       "icon": "📊",
-      "toolCount": 2
+      "toolCount": 5
     },
     {
       "id": "client-management",
       "name": "Client Management",
       "description": "CRM automation, client communication, and relationship management",
       "icon": "🤝",
-      "toolCount": 2
+      "toolCount": 6
     },
     {
       "id": "productivity-automation",
       "name": "Productivity & Automation",
-      "description": "AI writing, workflow automation, and productivity tools",
+      "description": "AI writing, workflow automation, SEO, and productivity tools",
       "icon": "⚡",
-      "toolCount": 2
+      "toolCount": 5
     },
     {
       "id": "social-media-content",
       "name": "Social Media & Content",
       "description": "Social media content creation, scheduling, and design tools",
       "icon": "📱",
-      "toolCount": 2
+      "toolCount": 3
     },
     {
       "id": "virtual-tours-staging",
       "name": "Virtual Tours & Staging",
       "description": "3D virtual tours, virtual staging, and immersive property experiences",
       "icon": "🎥",
-      "toolCount": 2
+      "toolCount": 4
     },
     {
       "id": "investment-deal-analysis",
@@ -1229,6 +1778,6 @@
       "toolCount": 2
     }
   ],
-  "lastUpdated": "2026-07-14T20:51:00.000Z",
-  "totalTools": 20
+  "lastUpdated": "2025-07-14T21:10:00.000Z",
+  "totalTools": 29
 }

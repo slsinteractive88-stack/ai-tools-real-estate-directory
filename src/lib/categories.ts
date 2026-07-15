@@ -7,7 +7,7 @@ export const categories: Category[] = [
     "slug": "listing-marketing",
     "description": "AI tools for listing marketing",
     "icon": "🔧",
-    "count": 2
+    "count": 3
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@ export const categories: Category[] = [
     "slug": "lead-generation",
     "description": "AI tools for lead generation",
     "icon": "🔧",
-    "count": 4
+    "count": 5
   },
   {
     "id": "3",
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     "slug": "market-analysis",
     "description": "AI tools for market analysis",
     "icon": "🔧",
-    "count": 2
+    "count": 3
   },
   {
     "id": "4",
@@ -31,7 +31,7 @@ export const categories: Category[] = [
     "slug": "client-management",
     "description": "AI tools for client management",
     "icon": "🔧",
-    "count": 2
+    "count": 4
   },
   {
     "id": "5",
@@ -39,7 +39,7 @@ export const categories: Category[] = [
     "slug": "productivity-automation",
     "description": "AI tools for productivity & automation",
     "icon": "🔧",
-    "count": 2
+    "count": 4
   },
   {
     "id": "6",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     "slug": "social-media-content",
     "description": "AI tools for social media & content",
     "icon": "🔧",
-    "count": 2
+    "count": 3
   },
   {
     "id": "7",
@@ -55,7 +55,7 @@ export const categories: Category[] = [
     "slug": "virtual-tours-staging",
     "description": "AI tools for virtual tours & staging",
     "icon": "🔧",
-    "count": 2
+    "count": 3
   },
   {
     "id": "8",
