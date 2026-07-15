@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { categories } from '@/lib/config';
+import { categories } from '@/lib/categories';
 
 export default function AddListingPage() {
   const [form, setForm] = useState({

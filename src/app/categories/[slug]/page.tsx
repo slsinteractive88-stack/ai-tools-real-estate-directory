@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { categories } from '@/lib/config';
+import { categories } from '@/lib/categories';
 import { getCategoryListings } from '@/lib/listings';
 import { ListingCard } from '@/components/ui/ListingCard';
 import { AdSense } from '@/components/ads/AdSense';

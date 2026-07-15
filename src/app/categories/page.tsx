@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { categories } from '@/lib/config';
+import { categories } from '@/lib/categories';
 
 export const metadata: Metadata = { title: 'Categories', description: 'Browse all business categories.' };
 
