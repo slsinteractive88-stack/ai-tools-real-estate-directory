@@ -1,6 +1,42 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { Listing } from '../src/types';
+
+interface Listing {
+  id: string;
+  title: string;
+  slug: string;
+  description: string;
+  shortDescription: string;
+  categoryId: string;
+  categoryName: string;
+  website: string;
+  email?: string;
+  phone?: string;
+  address?: string;
+  city?: string;
+  state?: string;
+  country?: string;
+  logo?: string;
+  images: string[];
+  featured: boolean;
+  verified: boolean;
+  rating: number;
+  reviewCount: number;
+  reviewSource?: string;
+  reviewUrl?: string;
+  tags: string[];
+  keyFeatures: string[];
+  integrations: string[];
+  platforms: string[];
+  targetUsers: string[];
+  pricing: string;
+  pricingType: string;
+  startingPrice: number;
+  currency: string;
+  affiliateLink?: string;
+  createdAt: string;
+  updatedAt: string;
+}
 
 const LOCAL_DATA_PATH = path.join(process.cwd(), 'data/tools.json');
 

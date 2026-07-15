@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Virtual Staging AI",
       "slug": "virtual-staging-ai",
-      "description": "AI-powered virtual staging for empty rooms. Upload photo → get staged versions in 30 sec. Pay per image. MLS-compliant output.",
+      "description": "AI-powered virtual staging for empty rooms. Upload photo \u2192 get staged versions in 30 sec. Pay per image. MLS-compliant output.",
       "shortDescription": "Instant virtual staging for empty rooms. $5/image.",
       "categoryId": "listing-marketing",
       "categoryName": "Listing Marketing",
@@ -59,7 +59,8 @@
       "affiliateLink": "",
       "createdAt": "2024-01-15",
       "updatedAt": "2024-03-10",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/virtual-staging-ai/reviews"
     },
     {
       "id": "2",
@@ -118,7 +119,8 @@
       "affiliateLink": "",
       "createdAt": "2024-01-20",
       "updatedAt": "2024-03-05",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/restb-ai/reviews"
     },
     {
       "id": "3",
@@ -177,7 +179,8 @@
       "affiliateLink": "",
       "createdAt": "2024-02-01",
       "updatedAt": "2024-03-12",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/ylopo/reviews"
     },
     {
       "id": "4",
@@ -235,7 +238,8 @@
       "affiliateLink": "",
       "createdAt": "2024-02-10",
       "updatedAt": "2024-03-08",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/structurely/reviews"
     },
     {
       "id": "5",
@@ -293,7 +297,8 @@
       "affiliateLink": "",
       "createdAt": "2024-02-15",
       "updatedAt": "2024-03-03",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/housecanary/reviews"
     },
     {
       "id": "6",
@@ -347,7 +352,8 @@
       "affiliateLink": "",
       "createdAt": "2024-02-20",
       "updatedAt": "2024-03-02",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/brightmls-ai/reviews"
     },
     {
       "id": "7",
@@ -406,7 +412,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-01",
       "updatedAt": "2024-03-15",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/sidekick/reviews"
     },
     {
       "id": "8",
@@ -464,7 +471,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-01",
       "updatedAt": "2024-03-15",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/follow-up-boss/reviews"
     },
     {
       "id": "9",
@@ -522,7 +530,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-10",
       "updatedAt": "2024-03-20",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/chatgpt/reviews"
     },
     {
       "id": "10",
@@ -580,7 +589,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-15",
       "updatedAt": "2024-03-25",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/zapier/reviews"
     },
     {
       "id": "11",
@@ -640,7 +650,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-20",
       "updatedAt": "2024-03-28",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/canva/reviews"
     },
     {
       "id": "12",
@@ -700,7 +711,8 @@
       "affiliateLink": "",
       "createdAt": "2024-03-25",
       "updatedAt": "2024-04-01",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/predis-ai/reviews"
     },
     {
       "id": "13",
@@ -763,7 +775,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-01",
       "updatedAt": "2024-04-10",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/matterport/reviews"
     },
     {
       "id": "14",
@@ -823,7 +836,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-05",
       "updatedAt": "2024-04-12",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/asteroom/reviews"
     },
     {
       "id": "15",
@@ -882,7 +896,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-10",
       "updatedAt": "2024-04-18",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/dealcheck/reviews"
     },
     {
       "id": "16",
@@ -942,7 +957,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-15",
       "updatedAt": "2024-04-22",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/realnex/reviews"
     },
     {
       "id": "17",
@@ -1003,7 +1019,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-20",
       "updatedAt": "2024-04-28",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/docusign/reviews"
     },
     {
       "id": "18",
@@ -1062,7 +1079,8 @@
       "affiliateLink": "",
       "createdAt": "2024-04-25",
       "updatedAt": "2024-05-01",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/skyslope/reviews"
     },
     {
       "id": "19",
@@ -1122,7 +1140,8 @@
       "affiliateLink": "",
       "createdAt": "2024-05-01",
       "updatedAt": "2024-05-10",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/offrs/reviews"
     },
     {
       "id": "20",
@@ -1181,7 +1200,8 @@
       "affiliateLink": "",
       "createdAt": "2024-05-05",
       "updatedAt": "2024-05-15",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/revaluate/reviews"
     },
     {
       "id": "21",
@@ -1237,14 +1257,15 @@
         "Teams",
         "Brokerages"
       ],
-      "pricing": "$59–$599/mo (20% off annual)",
+      "pricing": "$59\u2013$599/mo (20% off annual)",
       "pricingType": "Subscription",
       "startingPrice": 59,
       "currency": "USD",
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/placester/reviews"
     },
     {
       "id": "22",
@@ -1306,7 +1327,8 @@
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/cinc/reviews"
     },
     {
       "id": "23",
@@ -1368,7 +1390,8 @@
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/lofty/reviews"
     },
     {
       "id": "24",
@@ -1422,14 +1445,15 @@
         "Teams",
         "Brokerages"
       ],
-      "pricing": "$399–$699/mo (10-day trial, 17% off annual)",
+      "pricing": "$399\u2013$699/mo (10-day trial, 17% off annual)",
       "pricingType": "Subscription",
       "startingPrice": 399,
       "currency": "USD",
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/alli-ai/reviews"
     },
     {
       "id": "25",
@@ -1484,14 +1508,15 @@
         "Solo agents",
         "Teams"
       ],
-      "pricing": "$97–$397/mo (17% off annual, 30-day InstaCard trial)",
+      "pricing": "$97\u2013$397/mo (17% off annual, 30-day InstaCard trial)",
       "pricingType": "Subscription",
       "startingPrice": 97,
       "currency": "USD",
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/real-grader/reviews"
     },
     {
       "id": "26",
@@ -1546,14 +1571,15 @@
         "Investors",
         "Agents working with investors"
       ],
-      "pricing": "$24.99–$119.99/mo (annual, no free trial)",
+      "pricing": "$24.99\u2013$119.99/mo (annual, no free trial)",
       "pricingType": "Subscription",
       "startingPrice": 24.99,
       "currency": "USD",
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/mashvisor/reviews"
     },
     {
       "id": "27",
@@ -1616,7 +1642,8 @@
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/birdeye/reviews"
     },
     {
       "id": "28",
@@ -1670,20 +1697,21 @@
         "Teams",
         "Photographers"
       ],
-      "pricing": "Free (ad-supported) + $17.99–$24.99/mo (7-day trial)",
+      "pricing": "Free (ad-supported) + $17.99\u2013$24.99/mo (7-day trial)",
       "pricingType": "Freemium",
       "startingPrice": 17.99,
       "currency": "USD",
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/remini/reviews"
     },
     {
       "id": "29",
       "title": "Collov AI",
       "slug": "collov-ai",
-      "description": "AI virtual staging and interior design platform. Upload empty room photos → get staged designs in seconds. Multiple style options, furniture replacement, and design visualization for listings.",
+      "description": "AI virtual staging and interior design platform. Upload empty room photos \u2192 get staged designs in seconds. Multiple style options, furniture replacement, and design visualization for listings.",
       "shortDescription": "AI virtual staging with multiple styles & furniture replacement.",
       "categoryId": "virtual-tours-staging",
       "categoryName": "Virtual Tours & Staging",
@@ -1739,7 +1767,8 @@
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14",
-      "reviewSource": "G2"
+      "reviewSource": "G2",
+      "reviewUrl": "https://www.g2.com/products/collov-ai/reviews"
     }
   ],
   "categories": [
@@ -1747,63 +1776,63 @@
       "id": "listing-marketing",
       "name": "Listing Marketing",
       "description": "Tools for creating, enhancing, and marketing property listings",
-      "icon": "🏠",
+      "icon": "\ud83c\udfe0",
       "toolCount": 4
     },
     {
       "id": "lead-generation",
       "name": "Lead Generation",
       "description": "AI-powered lead generation, qualification, and nurturing tools",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "toolCount": 8
     },
     {
       "id": "market-analysis",
       "name": "Market Analysis",
       "description": "Property valuation, market forecasting, and investment analytics",
-      "icon": "📊",
+      "icon": "\ud83d\udcca",
       "toolCount": 5
     },
     {
       "id": "client-management",
       "name": "Client Management",
       "description": "CRM automation, client communication, and relationship management",
-      "icon": "🤝",
+      "icon": "\ud83e\udd1d",
       "toolCount": 6
     },
     {
       "id": "productivity-automation",
       "name": "Productivity & Automation",
       "description": "AI writing, workflow automation, SEO, and productivity tools",
-      "icon": "⚡",
+      "icon": "\u26a1",
       "toolCount": 5
     },
     {
       "id": "social-media-content",
       "name": "Social Media & Content",
       "description": "Social media content creation, scheduling, and design tools",
-      "icon": "📱",
+      "icon": "\ud83d\udcf1",
       "toolCount": 3
     },
     {
       "id": "virtual-tours-staging",
       "name": "Virtual Tours & Staging",
       "description": "3D virtual tours, virtual staging, and immersive property experiences",
-      "icon": "🎥",
+      "icon": "\ud83c\udfa5",
       "toolCount": 4
     },
     {
       "id": "investment-deal-analysis",
       "name": "Investment & Deal Analysis",
       "description": "Property investment analysis, deal calculators, and portfolio management",
-      "icon": "💰",
+      "icon": "\ud83d\udcb0",
       "toolCount": 2
     },
     {
       "id": "transaction-compliance",
       "name": "Transaction & Compliance",
       "description": "Transaction management, e-signatures, and compliance tools",
-      "icon": "📋",
+      "icon": "\ud83d\udccb",
       "toolCount": 2
     }
   ],
