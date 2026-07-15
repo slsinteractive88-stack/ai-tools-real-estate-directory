@@ -7,7 +7,7 @@ export const categories: Category[] = [
     "slug": "listing-marketing",
     "description": "Tools for creating, enhancing, and marketing property listings",
     "icon": "🏠",
-    "count": 4
+    "count": 3
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@ export const categories: Category[] = [
     "slug": "lead-generation",
     "description": "AI-powered lead generation, qualification, and nurturing tools",
     "icon": "🎯",
-    "count": 8
+    "count": 5
   },
   {
     "id": "3",
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     "slug": "market-analysis",
     "description": "Property valuation, market forecasting, and investment analytics",
     "icon": "📊",
-    "count": 5
+    "count": 3
   },
   {
     "id": "4",
@@ -31,7 +31,7 @@ export const categories: Category[] = [
     "slug": "client-management",
     "description": "CRM automation, client communication, and relationship management",
     "icon": "🤝",
-    "count": 6
+    "count": 4
   },
   {
     "id": "5",
@@ -39,7 +39,7 @@ export const categories: Category[] = [
     "slug": "productivity-automation",
     "description": "AI writing, workflow automation, SEO, and productivity tools",
     "icon": "⚡",
-    "count": 5
+    "count": 4
   },
   {
     "id": "6",
@@ -55,7 +55,7 @@ export const categories: Category[] = [
     "slug": "virtual-tours-staging",
     "description": "3D virtual tours, virtual staging, and immersive property experiences",
     "icon": "🎥",
-    "count": 4
+    "count": 3
   },
   {
     "id": "8",
