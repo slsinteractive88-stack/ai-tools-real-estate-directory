@@ -59,7 +59,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-15",
-    "updatedAt": "2024-03-10"
+    "updatedAt": "2024-03-10",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/virtual-staging-ai/reviews"
   },
   {
     "id": "2",
@@ -117,7 +119,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-01-20",
-    "updatedAt": "2024-03-05"
+    "updatedAt": "2024-03-05",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/restb-ai/reviews"
   },
   {
     "id": "3",
@@ -176,8 +180,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-02-01",
     "updatedAt": "2024-03-12",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/177976/Ylopo/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/ylopo/reviews"
   },
   {
     "id": "4",
@@ -235,8 +239,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-02-10",
     "updatedAt": "2024-03-08",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/190123/Structurely/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/structurely/reviews"
   },
   {
     "id": "5",
@@ -294,8 +298,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-02-15",
     "updatedAt": "2024-03-03",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/178945/HouseCanary/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/housecanary/reviews"
   },
   {
     "id": "6",
@@ -348,7 +352,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-02-20",
-    "updatedAt": "2024-03-02"
+    "updatedAt": "2024-03-02",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/brightmls-ai/reviews"
   },
   {
     "id": "7",
@@ -406,7 +412,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-01",
-    "updatedAt": "2024-03-15"
+    "updatedAt": "2024-03-15",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/sidekick/reviews"
   },
   {
     "id": "8",
@@ -464,8 +472,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-03-01",
     "updatedAt": "2024-03-15",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/146587/Follow-Up-Boss/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/follow-up-boss/reviews"
   },
   {
     "id": "9",
@@ -523,8 +531,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-03-10",
     "updatedAt": "2024-03-20",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/223456/ChatGPT/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/chatgpt/reviews"
   },
   {
     "id": "10",
@@ -582,8 +590,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-03-15",
     "updatedAt": "2024-03-25",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/174321/Zapier/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/zapier/reviews"
   },
   {
     "id": "11",
@@ -643,8 +651,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-03-20",
     "updatedAt": "2024-03-28",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/153789/Canva/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/canva/reviews"
   },
   {
     "id": "12",
@@ -703,7 +711,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-03-25",
-    "updatedAt": "2024-04-01"
+    "updatedAt": "2024-04-01",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/predis-ai/reviews"
   },
   {
     "id": "13",
@@ -766,8 +776,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-04-01",
     "updatedAt": "2024-04-10",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/134567/Matterport/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/matterport/reviews"
   },
   {
     "id": "14",
@@ -827,8 +837,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-04-05",
     "updatedAt": "2024-04-12",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/189234/Asteroom/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/asteroom/reviews"
   },
   {
     "id": "15",
@@ -887,8 +897,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-04-10",
     "updatedAt": "2024-04-18",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/178345/DealCheck/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/dealcheck/reviews"
   },
   {
     "id": "16",
@@ -947,7 +957,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-04-15",
-    "updatedAt": "2024-04-22"
+    "updatedAt": "2024-04-22",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/realnex/reviews"
   },
   {
     "id": "17",
@@ -1008,8 +1020,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-04-20",
     "updatedAt": "2024-04-28",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/124567/DocuSign/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/docusign/reviews"
   },
   {
     "id": "18",
@@ -1068,8 +1080,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-04-25",
     "updatedAt": "2024-05-01",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/156789/SkySlope/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/skyslope/reviews"
   },
   {
     "id": "19",
@@ -1128,7 +1140,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-05-01",
-    "updatedAt": "2024-05-10"
+    "updatedAt": "2024-05-10",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/offrs/reviews"
   },
   {
     "id": "20",
@@ -1187,8 +1201,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-05-05",
     "updatedAt": "2024-05-15",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/187654/Revaluate/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/revaluate/reviews"
   },
   {
     "id": "21",
@@ -1251,8 +1265,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/145678/Placester/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/placester/reviews"
   },
   {
     "id": "22",
@@ -1314,8 +1328,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/167890/CINC/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/cinc/reviews"
   },
   {
     "id": "23",
@@ -1377,8 +1391,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/189012/Lofty/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/lofty/reviews"
   },
   {
     "id": "24",
@@ -1438,7 +1452,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/alli-ai/reviews"
   },
   {
     "id": "25",
@@ -1499,7 +1515,9 @@ export const listings: Listing[] = [
     "currency": "USD",
     "affiliateLink": "",
     "createdAt": "2024-07-14",
-    "updatedAt": "2025-07-14"
+    "updatedAt": "2025-07-14",
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/real-grader/reviews"
   },
   {
     "id": "26",
@@ -1561,8 +1579,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/178901/Mashvisor/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/mashvisor/reviews"
   },
   {
     "id": "27",
@@ -1625,8 +1643,8 @@ export const listings: Listing[] = [
     "affiliateLink": "",
     "createdAt": "2024-07-14",
     "updatedAt": "2025-07-14",
-    "reviewSource": "Capterra",
-    "reviewUrl": "https://www.capterra.com/p/156789/Birdeye/"
+    "reviewSource": "G2",
+    "reviewUrl": "https://www.g2.com/products/birdeye/reviews"
   },
   {
     "id": "28",
