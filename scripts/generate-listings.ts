@@ -9,6 +9,7 @@ interface Listing {
   shortDescription: string;
   categoryId: string;
   categoryName: string;
+  categoryIcon: string;
   website: string;
   email?: string;
   phone?: string;
@@ -63,10 +64,17 @@ async function main() {
   }
 
   // Ensure slug is properly formatted
+  // Build category icon lookup
+  const categoryIcons: Record<string, string> = {};
+  data.categories.forEach((cat: any) => {
+    categoryIcons[cat.id] = cat.icon;
+  });
+
   const listings = tools.map((tool, index) => ({
     ...tool,
     id: String(index + 1),
     slug: tool.slug || slugify(tool.title),
+    categoryIcon: categoryIcons[tool.categoryId] || '🔧',
   }));
 
   const output = `import { Listing } from '@/types';

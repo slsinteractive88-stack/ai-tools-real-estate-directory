@@ -32,7 +32,7 @@ export function ListingCard({ listing, variant = 'default', showAdLabel = false 
       <div className="flex-1 p-4 md:p-6 flex flex-col justify-between min-w-0">
         <div>
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
-            <span>{listing.categoryName}</span>
+            <span>{listing.categoryIcon} {listing.categoryName}</span>
             {(listing.city || listing.state) && (
               <span>{[listing.city, listing.state].filter(Boolean).join(', ')}</span>
             )}

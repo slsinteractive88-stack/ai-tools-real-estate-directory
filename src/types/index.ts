@@ -15,6 +15,7 @@ export interface Listing {
   shortDescription: string;
   categoryId: string;
   categoryName: string;
+  categoryIcon: string;
   website: string;
   email?: string;
   phone?: string;
