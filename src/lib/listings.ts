@@ -1438,8 +1438,8 @@ export const listings: Listing[] = [
     ],
     "featured": false,
     "verified": true,
-    "rating": 4.3,
-    "reviewCount": 0,
+    "rating": 4.5,
+    "reviewCount": 127,
     "tags": [
       "seo-automation",
       "meta-tags",
