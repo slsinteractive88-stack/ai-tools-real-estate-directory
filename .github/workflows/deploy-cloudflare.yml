@@ -27,8 +27,8 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://www.realtyaivault.com
-          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ secrets.ADSENSE_CLIENT }}
-          NEXT_PUBLIC_ADSENSE_ENABLED: ${{ secrets.ADSENSE_ENABLED }}
+          NEXT_PUBLIC_ADSENSE_CLIENT: ${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT }}
+          NEXT_PUBLIC_ADSENSE_ENABLED: 'true'
           NEXT_PUBLIC_GA_ID: ${{ secrets.GA_ID }}
 
       - name: Deploy to Cloudflare Pages
@@ -39,3 +39,7 @@ jobs:
           projectName: realtyaivault
           directory: out
           branch: main
+          environmentVariables: |
+            NEXT_PUBLIC_ADSENSE_CLIENT=${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT }}
+            NEXT_PUBLIC_SITE_URL=https://www.realtyaivault.com
+            NEXT_PUBLIC_ADSENSE_ENABLED=true
