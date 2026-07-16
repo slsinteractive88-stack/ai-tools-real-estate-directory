@@ -1,6 +1,7 @@
 import { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import { siteConfig } from '@/lib/config';
+import { Layout } from '@/components/layout/Layout';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -77,16 +78,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-      </head>
-      <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
-      </body>
-    </html>
+    <Layout>
+      <div className={`${inter.variable} font-sans antialiased`}>{children}</div>
+    </Layout>
   );
 }
