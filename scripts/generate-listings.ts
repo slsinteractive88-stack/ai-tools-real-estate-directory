@@ -20,10 +20,6 @@ interface Listing {
   images: string[];
   featured: boolean;
   verified: boolean;
-  rating: number;
-  reviewCount: number;
-  reviewSource?: string;
-  reviewUrl?: string;
   tags: string[];
   keyFeatures: string[];
   integrations: string[];
@@ -93,7 +89,7 @@ export function getListings(filters?: { category?: string; featured?: boolean; s
     const q = filters.search.toLowerCase();
     result = result.filter(l => l.title.toLowerCase().includes(q) || l.shortDescription.toLowerCase().includes(q));
   }
-  return result.sort((a, b) => (b.featured === a.featured ? 0 : b.featured ? 1 : -1) || b.rating - a.rating);
+  return result.sort((a, b) => (b.featured === a.featured ? 0 : b.featured ? 1 : -1));
 }
 
 export function getListing(slug: string): Listing | undefined {

@@ -26,10 +26,6 @@ export interface Listing {
   images: string[];
   featured: boolean;
   verified: boolean;
-  rating: number;
-  reviewCount: number;
-  reviewSource?: string;
-  reviewUrl?: string;
   tags: string[];
   keyFeatures: string[];
   integrations: string[];
@@ -42,7 +38,6 @@ export interface Listing {
   affiliateLink?: string;
   createdAt: string;
   updatedAt: string;
-  ratingVerifiedAt?: string;
 }
 
 export interface AdSlot {
