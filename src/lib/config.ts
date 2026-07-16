@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   ogImage: '/og-image.png',
   adsense: {
     publisherId: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXXXXXXXXX',
-    enabled: process.env.NEXT_PUBLIC_ADSENSE_ENABLED === 'true',
+    enabled: false,
     slots: {
       header: { name: 'Header Banner', adClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXXXXXXXXX', adSlot: '1557653460', format: 'horizontal' },
       sidebar: { name: 'Sidebar', adClient: process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXXXXXXXXX', adSlot: '3636453671', format: 'vertical' },
