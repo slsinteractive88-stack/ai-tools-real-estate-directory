@@ -1,5 +1,6 @@
 import { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import { siteConfig } from '@/lib/config';
 import { Layout } from '@/components/layout/Layout';
 import './globals.css';
@@ -66,6 +67,7 @@ export const metadata: Metadata = {
   other: {
     'theme-color': '#0ea5e9',
     'color-scheme': 'light dark',
+    'google-adsense-account': process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXXXXXXXXX',
   },
 };
 
@@ -77,8 +79,15 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || 'ca-pub-XXXXXXXXXXXXXXXX';
   return (
     <Layout>
+      <Script
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+        async
+        crossOrigin="anonymous"
+        strategy="beforeInteractive"
+      />
       <div className={`${inter.variable} font-sans antialiased`}>{children}</div>
     </Layout>
   );
