@@ -39,7 +39,3 @@ jobs:
           projectName: realtyaivault
           directory: out
           branch: main
-          environmentVariables: |
-            NEXT_PUBLIC_ADSENSE_CLIENT=${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT }}
-            NEXT_PUBLIC_SITE_URL=https://www.realtyaivault.com
-            NEXT_PUBLIC_ADSENSE_ENABLED=true
