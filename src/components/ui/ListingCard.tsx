@@ -23,11 +23,6 @@ export function ListingCard({ listing, variant = 'default', showAdLabel = false 
           Ad
         </div>
       )}
-      {isFeatured && (
-        <div className="absolute top-2 right-2 z-10 bg-primary-100 text-primary-800 text-xs font-medium px-2 py-0.5 rounded">
-          Editor's Pick
-        </div>
-      )}
 
       <div className="flex-1 p-4 md:p-6 flex flex-col justify-between min-w-0">
         <div>
