@@ -11,7 +11,7 @@ export default function TermsPage() {
         <div className="prose prose-gray max-w-none space-y-6">
           <p>By using this directory, you agree to these terms.</p>
           <h2>Listings</h2>
-          <p>Business owners may submit listings. We reserve the right to reject, edit, or remove any listing. Editor's Pick placement is a paid service.</p>
+          <p>Business owners may submit listings. We reserve the right to reject, edit, or remove any listing.</p>
           <h2>User Conduct</h2>
           <p>Do not submit false information, spam, or prohibited content (illegal, adult, hateful, etc.).</p>
           <h2>Disclaimer</h2>

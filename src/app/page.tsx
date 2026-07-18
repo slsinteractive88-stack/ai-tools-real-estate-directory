@@ -17,7 +17,6 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const featuredListings = getListings({ featured: true }).slice(0, 6);
   const recentListings = getListings().slice(0, 8);
 
   return (
@@ -63,21 +62,6 @@ export default function HomePage() {
                 <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition">{cat.name}</h3>
                 <p className="text-sm text-gray-500 mt-1">{cat.count} tools</p>
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Editor's Picks */}
-      <section className="py-10 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Editor's Picks</h2>
-            <Link href="/listings?featured=true" className="text-primary-600 hover:underline font-medium">View All →</Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredListings.map((listing) => (
-              <ListingCard key={listing.id} listing={listing} />
             ))}
           </div>
         </div>
