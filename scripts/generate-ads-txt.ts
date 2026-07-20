@@ -1,21 +1,20 @@
-import { siteConfig } from '../src/lib/config';
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 
-const lines = [
-  `# Generated ${new Date().toISOString()}`,
-  `# ${siteConfig.name} - ${siteConfig.url}`,
-  '',
-  `# Google AdSense`,
-  `google.com, ${siteConfig.adsense.publisherId.replace('ca-pub-', '')}, DIRECT, f08c47fec0942fa0`,
-  '',
-  `# Add your other authorized sellers below:`,
-  `# example.com, 1234567890, RESELLER, abcdef1234567890`,
-];
+const OUT_DIR = path.join(process.cwd(), 'out');
+const ADS_TXT_PATH = path.join(OUT_DIR, 'ads.txt');
 
-const outputDir = path.join(process.cwd(), 'public');
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+const ADS_TXT_CONTENT = `google.com, pub-7204857179418851, DIRECT, f08c47fec0942fa0`;
 
-fs.writeFileSync(path.join(outputDir, 'ads.txt'), lines.join('\n'));
-console.log('ads.txt generated at public/ads.txt');
-console.log(lines.join('\n'));
+function main() {
+  if (!fs.existsSync(OUT_DIR)) {
+    console.error('out/ directory not found. Run `npm run build` first.');
+    process.exit(1);
+  }
+
+  fs.writeFileSync(ADS_TXT_PATH, ADS_TXT_CONTENT);
+  console.log(`✅ Generated ${ADS_TXT_PATH}`);
+  console.log(`Content: ${ADS_TXT_CONTENT}`);
+}
+
+main();
