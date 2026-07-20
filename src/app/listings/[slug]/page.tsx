@@ -58,16 +58,6 @@ export default async function ListingPage({ params }: ListingPageProps) {
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
                   {listing.categoryIcon} {listing.categoryName}
                 </span>
-                {listing.verified && (
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700">
-                    Verified
-                  </span>
-                )}
-                {listing.featured && (
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700">
-                    Featured
-                  </span>
-                )}
               </div>
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">{listing.title}</h1>
               <p className="text-lg text-gray-600 max-w-2xl mb-4">{listing.shortDescription}</p>
