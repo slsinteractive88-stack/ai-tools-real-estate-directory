@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Virtual Staging AI",
       "slug": "virtual-staging-ai",
-      "description": "AI-powered virtual staging for empty rooms. Upload photo \u2192 get staged versions in 30 sec. Pay per image. MLS-compliant output.",
+      "description": "AI-powered virtual staging for empty rooms. Upload photo → get staged versions in 30 sec. Pay per image. MLS-compliant output.",
       "shortDescription": "Instant virtual staging for empty rooms. $5/image.",
       "categoryId": "listing-marketing",
       "categoryName": "Listing Marketing",
@@ -1175,7 +1175,7 @@
         "Teams",
         "Brokerages"
       ],
-      "pricing": "$59\u2013$599/mo (20% off annual)",
+      "pricing": "$59–$599/mo (20% off annual)",
       "pricingType": "Subscription",
       "startingPrice": 59,
       "currency": "USD",
@@ -1351,7 +1351,7 @@
         "Teams",
         "Brokerages"
       ],
-      "pricing": "$399\u2013$699/mo (10-day trial, 17% off annual)",
+      "pricing": "$399–$699/mo (10-day trial, 17% off annual)",
       "pricingType": "Subscription",
       "startingPrice": 399,
       "currency": "USD",
@@ -1410,7 +1410,7 @@
         "Solo agents",
         "Teams"
       ],
-      "pricing": "$97\u2013$397/mo (17% off annual, 30-day InstaCard trial)",
+      "pricing": "$97–$397/mo (17% off annual, 30-day InstaCard trial)",
       "pricingType": "Subscription",
       "startingPrice": 97,
       "currency": "USD",
@@ -1469,7 +1469,7 @@
         "Investors",
         "Agents working with investors"
       ],
-      "pricing": "$24.99\u2013$119.99/mo (annual, no free trial)",
+      "pricing": "$24.99–$119.99/mo (annual, no free trial)",
       "pricingType": "Subscription",
       "startingPrice": 24.99,
       "currency": "USD",
@@ -1587,7 +1587,7 @@
         "Teams",
         "Photographers"
       ],
-      "pricing": "Free (ad-supported) + $17.99\u2013$24.99/mo (7-day trial)",
+      "pricing": "Free (ad-supported) + $17.99–$24.99/mo (7-day trial)",
       "pricingType": "Freemium",
       "startingPrice": 17.99,
       "currency": "USD",
@@ -1599,7 +1599,7 @@
       "id": "29",
       "title": "Collov AI",
       "slug": "collov-ai",
-      "description": "AI virtual staging and interior design platform. Upload empty room photos \u2192 get staged designs in seconds. Multiple style options, furniture replacement, and design visualization for listings.",
+      "description": "AI virtual staging and interior design platform. Upload empty room photos → get staged designs in seconds. Multiple style options, furniture replacement, and design visualization for listings.",
       "shortDescription": "AI virtual staging with multiple styles & furniture replacement.",
       "categoryId": "virtual-tours-staging",
       "categoryName": "Virtual Tours & Staging",
@@ -1653,6 +1653,270 @@
       "affiliateLink": "",
       "createdAt": "2024-07-14",
       "updatedAt": "2025-07-14"
+    },
+    {
+      "id": "30",
+      "title": "Epique AI",
+      "slug": "epique-ai",
+      "description": "AI content platform for real estate agents. Generates listing descriptions, social media posts, email campaigns, and market reports.",
+      "shortDescription": "AI content generation: listings, social, emails, reports.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://epique.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://epique.ai/logo.png",
+      "images": [],
+      "featured": false,
+      "verified": false,
+      "tags": [
+        "content-generation",
+        "listing-descriptions",
+        "social-media",
+        "email-marketing"
+      ],
+      "keyFeatures": [
+        "Listing descriptions",
+        "Social posts",
+        "Email campaigns",
+        "Market reports"
+      ],
+      "integrations": [
+        "Zapier",
+        "Make"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams"
+      ],
+      "pricing": "From $29/mo",
+      "pricingType": "Subscription",
+      "startingPrice": 29,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-07-18",
+      "categoryIcon": "⚡"
+    },
+    {
+      "id": "32",
+      "title": "RealtyNinja",
+      "slug": "realtyninja",
+      "description": "AI-powered real estate website builder with automated listing import, IDX integration, and lead capture tools.",
+      "shortDescription": "AI website builder with IDX and lead capture.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://realtyninja.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://realtyninja.com/logo.png",
+      "images": [],
+      "featured": false,
+      "verified": false,
+      "tags": [
+        "website-builder",
+        "idx",
+        "lead-capture",
+        "automation"
+      ],
+      "keyFeatures": [
+        "Auto listing import",
+        "IDX integration",
+        "Lead capture",
+        "Mobile responsive"
+      ],
+      "integrations": [
+        "MLS",
+        "CRM"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "From $50/mo",
+      "pricingType": "Subscription",
+      "startingPrice": 50,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-07-18",
+      "categoryIcon": "⚡"
+    },
+    {
+      "id": "34",
+      "title": "Roof AI",
+      "slug": "roof-ai",
+      "description": "Conversational AI platform for real estate. Automates lead engagement, qualification, and routing through chat, SMS, and email.",
+      "shortDescription": "Conversational AI for lead engagement and qualification.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://roof.ai",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://roof.ai/logo.png",
+      "images": [],
+      "featured": false,
+      "verified": false,
+      "tags": [
+        "conversational-ai",
+        "lead-qualification",
+        "chatbot",
+        "automation"
+      ],
+      "keyFeatures": [
+        "24/7 chat",
+        "Lead qualification",
+        "CRM routing",
+        "Multi-channel"
+      ],
+      "integrations": [
+        "Follow Up Boss",
+        "BoomTown",
+        "kvCORE",
+        "Salesforce"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Teams",
+        "Brokerages"
+      ],
+      "pricing": "Contact for pricing",
+      "pricingType": "Contact",
+      "startingPrice": 0,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-07-18",
+      "categoryIcon": "⚡"
+    },
+    {
+      "id": "36",
+      "title": "Styldod",
+      "slug": "styldod",
+      "description": "AI-powered virtual staging and photo enhancement for real estate. Transforms empty rooms into beautifully staged spaces.",
+      "shortDescription": "Virtual staging and photo enhancement. $5/image.",
+      "categoryId": "listing-marketing",
+      "categoryName": "Listing Marketing",
+      "website": "https://styldod.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://styldod.com/logo.png",
+      "images": [],
+      "featured": false,
+      "verified": false,
+      "tags": [
+        "virtual-staging",
+        "photo-enhancement",
+        "listing-photos",
+        "ai-images"
+      ],
+      "keyFeatures": [
+        "Virtual staging",
+        "Photo enhancement",
+        "Object removal",
+        "Sky replacement"
+      ],
+      "integrations": [
+        "MLS",
+        "Zillow",
+        "Realtor.com"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams",
+        "Photographers"
+      ],
+      "pricing": "From $5/image",
+      "pricingType": "Pay per use",
+      "startingPrice": 5,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-07-18",
+      "categoryIcon": "🏠"
+    },
+    {
+      "id": "38",
+      "title": "LocalizeOS",
+      "slug": "localizeos",
+      "description": "AI-powered buyer engagement platform. Automates personalized communication, schedules showings, and provides market insights.",
+      "shortDescription": "AI buyer engagement: communication, showings, insights.",
+      "categoryId": "productivity-automation",
+      "categoryName": "Productivity & Automation",
+      "website": "https://localizeos.com",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "US",
+      "logo": "https://localizeos.com/logo.png",
+      "images": [],
+      "featured": false,
+      "verified": false,
+      "tags": [
+        "buyer-engagement",
+        "automation",
+        "showings",
+        "communication"
+      ],
+      "keyFeatures": [
+        "Auto communication",
+        "Showing scheduling",
+        "Market insights",
+        "Behavior tracking"
+      ],
+      "integrations": [
+        "MLS",
+        "CRM",
+        "Calendar"
+      ],
+      "platforms": [
+        "Web",
+        "Mobile App"
+      ],
+      "targetUsers": [
+        "Solo agents",
+        "Teams"
+      ],
+      "pricing": "From $49/mo",
+      "pricingType": "Subscription",
+      "startingPrice": 49,
+      "currency": "USD",
+      "affiliateLink": "",
+      "createdAt": "2026-07-18",
+      "updatedAt": "2026-07-18",
+      "categoryIcon": "⚡"
     }
   ],
   "categories": [
@@ -1660,64 +1924,73 @@
       "id": "listing-marketing",
       "name": "Listing Marketing",
       "description": "Tools for creating, enhancing, and marketing property listings",
-      "icon": "\ud83c\udfe0",
-      "toolCount": 4
+      "icon": "🏠",
+      "toolCount": 4,
+      "count": 4
     },
     {
       "id": "lead-generation",
       "name": "Lead Generation",
       "description": "AI-powered lead generation, qualification, and nurturing tools",
-      "icon": "\ud83c\udfaf",
-      "toolCount": 8
+      "icon": "🎯",
+      "toolCount": 8,
+      "count": 5
     },
     {
       "id": "market-analysis",
       "name": "Market Analysis",
       "description": "Property valuation, market forecasting, and investment analytics",
-      "icon": "\ud83d\udcca",
-      "toolCount": 5
+      "icon": "📊",
+      "toolCount": 5,
+      "count": 3
     },
     {
       "id": "client-management",
       "name": "Client Management",
       "description": "CRM automation, client communication, and relationship management",
-      "icon": "\ud83e\udd1d",
-      "toolCount": 6
+      "icon": "🤝",
+      "toolCount": 6,
+      "count": 4
     },
     {
       "id": "productivity-automation",
       "name": "Productivity & Automation",
       "description": "AI writing, workflow automation, SEO, and productivity tools",
-      "icon": "\u26a1",
-      "toolCount": 5
+      "icon": "⚡",
+      "toolCount": 5,
+      "count": 8
     },
     {
       "id": "social-media-content",
       "name": "Social Media & Content",
       "description": "Social media content creation, scheduling, and design tools",
-      "icon": "\ud83d\udcf1",
-      "toolCount": 3
+      "icon": "📱",
+      "toolCount": 3,
+      "count": 3
     },
     {
       "id": "virtual-tours-staging",
       "name": "Virtual Tours & Staging",
       "description": "3D virtual tours, virtual staging, and immersive property experiences",
-      "icon": "\ud83c\udfa5",
-      "toolCount": 4
+      "icon": "🎥",
+      "toolCount": 4,
+      "count": 3
     },
     {
       "id": "investment-deal-analysis",
       "name": "Investment & Deal Analysis",
       "description": "Property investment analysis, deal calculators, and portfolio management",
-      "icon": "\ud83d\udcb0",
-      "toolCount": 2
+      "icon": "💰",
+      "toolCount": 2,
+      "count": 2
     },
     {
       "id": "transaction-compliance",
       "name": "Transaction & Compliance",
       "description": "Transaction management, e-signatures, and compliance tools",
-      "icon": "\ud83d\udccb",
-      "toolCount": 2
+      "icon": "📋",
+      "toolCount": 2,
+      "count": 2
     }
   ],
   "lastUpdated": "2026-07-15T21:30:00.000Z",
