@@ -95,7 +95,7 @@ export default async function ListingPage({ params }: ListingPageProps) {
             {listing.keyFeatures && listing.keyFeatures.length > 0 && (
               <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">Key Features</h2>
-                <ul className="grid sm:grid-cols-2 gap-3">
+                <ul className="space-y-3">
                   {listing.keyFeatures.map((feature, i) => (
                     <li key={i} className="flex items-center gap-2 text-gray-700">
                       <svg className="w-5 h-5 text-primary-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -122,33 +122,42 @@ export default async function ListingPage({ params }: ListingPageProps) {
               </section>
             )}
 
-            {/* Platforms */}
-            {listing.platforms && listing.platforms.length > 0 && (
-              <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-4">Platforms</h2>
-                <div className="flex flex-wrap gap-2">
-                  {listing.platforms.map((platform, i) => (
-                    <span key={i} className="px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-lg border border-blue-100">
-                      {platform}
-                    </span>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Best For */}
-            {listing.targetUsers && listing.targetUsers.length > 0 && (
-              <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-4">Best For</h2>
-                <div className="flex flex-wrap gap-2">
-                  {listing.targetUsers.map((user, i) => (
-                    <span key={i} className="px-3 py-1 bg-purple-50 text-purple-700 text-sm rounded-lg border border-purple-100">
-                      {user}
-                    </span>
-                  ))}
-                </div>
-              </section>
-            )}
+            {/* Details */}
+            <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
+              <h2 className="text-xl font-semibold text-gray-900 mb-4">Details</h2>
+              <dl className="space-y-4 text-sm">
+                {listing.platforms && listing.platforms.length > 0 && (
+                  <div>
+                    <dt className="text-gray-400 mb-1">Platforms</dt>
+                    <dd className="text-gray-900 font-medium">{listing.platforms.join(', ')}</dd>
+                  </div>
+                )}
+                {listing.targetUsers && listing.targetUsers.length > 0 && (
+                  <div>
+                    <dt className="text-gray-400 mb-1">Target Users</dt>
+                    <dd className="text-gray-900 font-medium">{listing.targetUsers.join(', ')}</dd>
+                  </div>
+                )}
+                {listing.pricingType && (
+                  <div>
+                    <dt className="text-gray-400 mb-1">Pricing Model</dt>
+                    <dd className="text-gray-900 font-medium">{listing.pricingType}</dd>
+                  </div>
+                )}
+                {listing.startingPrice > 0 && (
+                  <div>
+                    <dt className="text-gray-400 mb-1">Starting Price</dt>
+                    <dd className="text-gray-900 font-medium">${listing.startingPrice}/{listing.currency || 'USD'}</dd>
+                  </div>
+                )}
+                {listing.pricing && (
+                  <div>
+                    <dt className="text-gray-400 mb-1">Full Pricing Details</dt>
+                    <dd className="text-gray-900 font-medium">{listing.pricing}</dd>
+                  </div>
+                )}
+              </dl>
+            </section>
 
             {/* In-article Ad */}
             <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8" aria-label="Advertisement">
@@ -163,15 +172,9 @@ export default async function ListingPage({ params }: ListingPageProps) {
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <h3 className="font-semibold text-gray-900 mb-4">Quick Facts</h3>
                 <dl className="space-y-4 text-sm">
-                  {listing.pricing && (
-                    <div>
-                      <dt className="text-gray-400 mb-1">Pricing</dt>
-                      <dd className="text-gray-900 font-medium">{listing.pricing}</dd>
-                    </div>
-                  )}
                   {listing.pricingType && (
                     <div>
-                      <dt className="text-gray-400 mb-1">Model</dt>
+                      <dt className="text-gray-400 mb-1">Pricing Model</dt>
                       <dd className="text-gray-900 font-medium">{listing.pricingType}</dd>
                     </div>
                   )}
@@ -183,7 +186,11 @@ export default async function ListingPage({ params }: ListingPageProps) {
                   )}
                   <div>
                     <dt className="text-gray-400 mb-1">Category</dt>
-                    <dd className="text-gray-900 font-medium">{listing.categoryIcon} {listing.categoryName}</dd>
+                    <dd className="text-gray-900 font-medium">
+                      <Link href={`/categories/${listing.categoryId}`} className="hover:text-primary-600">
+                        {listing.categoryIcon} {listing.categoryName}
+                      </Link>
+                    </dd>
                   </div>
                 </dl>
               </div>
