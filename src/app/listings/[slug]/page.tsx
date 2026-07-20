@@ -169,53 +169,6 @@ export default async function ListingPage({ params }: ListingPageProps) {
           {/* Sidebar */}
           <aside className="lg:col-span-1">
             <div className="sticky top-24 space-y-6">
-              {/* Quick Facts Card */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <h3 className="font-semibold text-gray-900 mb-4">Quick Facts</h3>
-                <dl className="space-y-4 text-sm">
-                  {listing.pricing && (
-                    <div>
-                      <dt className="text-gray-400 mb-1">Pricing</dt>
-                      <dd className="text-gray-900 font-medium">{listing.pricing}</dd>
-                    </div>
-                  )}
-                  {listing.pricingType && (
-                    <div>
-                      <dt className="text-gray-400 mb-1">Model</dt>
-                      <dd className="text-gray-900 font-medium">{listing.pricingType}</dd>
-                    </div>
-                  )}
-                  {listing.startingPrice > 0 && (
-                    <div>
-                      <dt className="text-gray-400 mb-1">Starting Price</dt>
-                      <dd className="text-gray-900 font-medium">${listing.startingPrice}/{listing.currency || 'USD'}</dd>
-                    </div>
-                  )}
-                  <div>
-                    <dt className="text-gray-400 mb-1">Category</dt>
-                    <dd className="text-gray-900 font-medium">{listing.categoryIcon} {listing.categoryName}</dd>
-                  </div>
-                </dl>
-              </div>
-
-              {/* Tags */}
-              {listing.tags && listing.tags.length > 0 && (
-                <div className="bg-white rounded-xl border border-gray-200 p-6">
-                  <h3 className="font-semibold text-gray-900 mb-3">Tags</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {listing.tags.map((tag, i) => (
-                      <Link
-                        key={i}
-                        href={`/listings?search=${tag}`}
-                        className="px-3 py-1 bg-gray-50 text-gray-600 text-sm rounded-lg border border-gray-100 hover:bg-gray-100 hover:text-gray-900 transition-colors"
-                      >
-                        {tag}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-
               {/* Contact Info */}
               {(listing.email || listing.phone || listing.address) && (
                 <div className="bg-white rounded-xl border border-gray-200 p-6">
