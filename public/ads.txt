@@ -1,1 +1,8 @@
+# Auto-generated on 2026-07-20T06:02:32.483Z
+# Realty AI Vault - https://www.realtyaivault.com
+
+# Google AdSense
 google.com, pub-7204857179418851, DIRECT, f08c47fec0942fa0
+
+# Additional authorized sellers (add your partners)
+# example.com, 1234567890, RESELLER, abcdef1234567890
