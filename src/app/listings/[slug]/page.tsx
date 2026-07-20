@@ -146,7 +146,7 @@ export default async function ListingPage({ params }: ListingPageProps) {
               </section>
             )}
 
-            {/* Target Users */}
+            {/* Best For */}
             {listing.targetUsers && listing.targetUsers.length > 0 && (
               <section className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">Best For</h2>
@@ -216,7 +216,7 @@ export default async function ListingPage({ params }: ListingPageProps) {
                 </div>
               )}
 
-              {/* Contact Info (if available) */}
+              {/* Contact Info */}
               {(listing.email || listing.phone || listing.address) && (
                 <div className="bg-white rounded-xl border border-gray-200 p-6">
                   <h3 className="font-semibold text-gray-900 mb-4">Contact</h3>
@@ -298,35 +298,10 @@ export default async function ListingPage({ params }: ListingPageProps) {
         })()}
       </main>
 
-      {/* Footer */}
+      {/* Simple Footer */}
       <footer className="bg-gray-900 text-gray-400 mt-16">
-        <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-white font-semibold mb-4">FinAdvisor Vault</h3>
-            <p className="text-sm leading-relaxed">
-              The definitive directory of AI-powered tools for financial advisors and planners. Discover, compare, and choose the right technology for your practice.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/listings" className="hover:text-white">All Tools</Link></li>
-              <li><Link href="/categories" className="hover:text-white">Categories</Link></li>
-              <li><Link href="/compare" className="hover:text-white">Compare</Link></li>
-              <li><Link href="/submit" className="hover:text-white">Submit a Tool</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-white font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
-              <li><Link href="/cookies" className="hover:text-white">Cookie Policy</Link></li>
-            </ul>
-          </div>
-        </div>
-        <div className="border-t border-gray-800 py-4 text-center text-sm">
-          © {new Date().getFullYear()} FinAdvisor Vault. All rights reserved.
+        <div className="container mx-auto px-4 py-8 text-center text-sm">
+          © {new Date().getFullYear()} Realty AI Vault. All rights reserved.
         </div>
       </footer>
     </div>
