@@ -297,13 +297,6 @@ export default async function ListingPage({ params }: ListingPageProps) {
           );
         })()}
       </main>
-
-      {/* Simple Footer */}
-      <footer className="bg-gray-900 text-gray-400 mt-16">
-        <div className="container mx-auto px-4 py-8 text-center text-sm">
-          © {new Date().getFullYear()} Realty AI Vault. All rights reserved.
-        </div>
-      </footer>
     </div>
   );
 }
