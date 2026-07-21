@@ -30,11 +30,11 @@ export default function TermsPage() {
             <li><strong>This directory is for informational purposes only — not professional advice.</strong></li>
           </ul>
 
-          <h2>4. Affiliate Links & Monetization</h2>
+          <h2>4. Monetization & Ads</h2>
           <ul>
-            <li>Some listings contain affiliate links. We may earn a commission if you purchase through these links.</li>
-            <li>Affiliate relationships do not influence ranking, categorization, or editorial content.</li>
-            <li>We also display advertisements via Google AdSense. Ads are served by Google and are not endorsements.</li>
+            <li>We may display advertisements via Google AdSense. Ads are served by Google and are not endorsements.</li>
+            <li>We do not currently use affiliate links in listings.</li>
+            <li>If affiliate relationships are added in the future, they will not influence ranking, categorization, or editorial content, and will be disclosed.</li>
           </ul>
 
           <h2>5. User Conduct</h2>
