@@ -43,7 +43,7 @@ export default function PrivacyPage() {
           </ul>
 
           <h2>Your Rights (GDPR / EU Users)</h2>
-          <p>If you are in the European Economic Area (EEA), you have rights regarding your personal data under GDPR, including access, correction, deletion, restriction, portability, objection, and withdrawal of consent. To exercise these rights, please contact us via the <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a> or email <a href="mailto:legal@realtyaivault.com" className="text-primary-600 hover:underline">legal@realtyaivault.com</a>. We respond within 30 days.</p>
+          <p>If you are in the European Economic Area (EEA), you have rights regarding your personal data under GDPR, including access, correction, deletion, restriction, portability, objection, and withdrawal of consent. To exercise these rights, please contact us via our <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a>. We respond within 30 days.</p>
 
           <h2>Lawful Basis for Processing (GDPR)</h2>
           <ul>

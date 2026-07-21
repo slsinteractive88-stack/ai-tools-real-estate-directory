@@ -66,7 +66,7 @@ export default function TermsPage() {
           <p>We may update these terms at any time. The "Last updated" date above will reflect the latest revision. Continued use after changes constitutes acceptance.</p>
 
           <h2>11. Contact</h2>
-          <p>Questions about these terms? Email <a href="mailto:legal@realtyaivault.com" className="text-primary-600 hover:underline">legal@realtyaivault.com</a>.</p>
+          <p>Questions about these terms? Contact us via our <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a>.</p>
         </div>
       </div>
     </div>

@@ -65,13 +65,13 @@ export default function CookiesPage() {
           </ol>
 
           <h2>Your Rights (GDPR / ePrivacy)</h2>
-          <p>If you are in the EEA, you have the right to:</p>
-          <ul>
-            <li>Consent to or reject non-essential cookies</li>
-            <li>Withdraw consent at any time (via banner or browser settings)</li>
-            <li>Access data collected via cookies (see <a href="/privacy" className="text-primary-600 hover:underline">Privacy Policy</a>)</li>
-          </ul>
-
+                    <p>If you are in the EEA, you have the right to:</p>
+                    <ul>
+                      <li>Consent to or reject non-essential cookies</li>
+                      <li>Withdraw consent at any time (via banner or browser settings)</li>
+                      <li>Access data collected via cookies (see <a href="/privacy" className="text-primary-600 hover:underline">Privacy Policy</a>)</li>
+                    </ul>
+                    <p>To exercise these rights, please contact us via our <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a>.</p>
           <h2>Changes</h2>
           <p>We may update this policy. The "Last updated" date above will reflect changes.</p>
 
