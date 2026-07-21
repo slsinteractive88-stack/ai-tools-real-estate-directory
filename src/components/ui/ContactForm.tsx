@@ -60,36 +60,36 @@ export function ContactForm() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!validate()) return;
+      e.preventDefault();
+      if (!validate()) return;
 
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
-    setErrorMessage('');
+      setIsSubmitting(true);
+      setSubmitStatus('idle');
+      setErrorMessage('');
 
-    try {
-      const response = await fetch('https://contact-api.realtyaivault.com', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      try {
+        const response = await fetch('https://realtyaivault-contact-api.sls-interactive88.workers.dev', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData),
+        });
 
-      const data = await response.json();
+        const data = await response.json();
 
-      if (response.ok && data.success) {
-        setSubmitStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '', type: 'general' });
-      } else {
+        if (response.ok && data.success) {
+          setSubmitStatus('success');
+          setFormData({ name: '', email: '', subject: '', message: '', type: 'general' });
+        } else {
+          setSubmitStatus('error');
+          setErrorMessage(data.error || 'Something went wrong. Please try again.');
+        }
+      } catch {
         setSubmitStatus('error');
-        setErrorMessage(data.error || 'Something went wrong. Please try again.');
+        setErrorMessage('Network error. Please check your connection and try again.');
+      } finally {
+        setIsSubmitting(false);
       }
-    } catch {
-      setSubmitStatus('error');
-      setErrorMessage('Network error. Please check your connection and try again.');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+    };
 
   const handleChange = (field: keyof FormData, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
