@@ -76,7 +76,7 @@ export default function CookiesPage() {
           <p>We may update this policy. The "Last updated" date above will reflect changes.</p>
 
           <h2>Contact</h2>
-          <p>Questions? Email <a href="mailto:privacy@realtyaivault.com" className="text-primary-600 hover:underline">privacy@realtyaivault.com</a>.</p>
+          <p>Questions? Use the <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a> or email <a href="mailto:legal@realtyaivault.com" className="text-primary-600 hover:underline">legal@realtyaivault.com</a>.</p>
         </div>
       </div>
     </div>
