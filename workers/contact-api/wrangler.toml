@@ -1,0 +1,9 @@
+name = "realtyaivault-contact-api"
+main = "index.ts"
+compatibility_date = "2026-07-21"
+
+[vars]
+GITHUB_REPO = "slsinteractive88-stack/ai-tools-real-estate-directory"
+
+# Add these secrets via: wrangler secret put GITHUB_TOKEN
+# and configure the domain route in Cloudflare dashboard
