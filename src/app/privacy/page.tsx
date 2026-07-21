@@ -76,7 +76,7 @@ export default function PrivacyPage() {
           <p>We may update this policy. Material changes will be posted here with a revised "Last updated" date. Continued use constitutes acceptance.</p>
 
           <h2>Contact</h2>
-          <p>Questions? Email <a href="mailto:privacy@realtyaivault.com" className="text-primary-600 hover:underline">privacy@realtyaivault.com</a>.</p>
+          <p>Questions? Use our <a href="https://realtyaivault.com" target="_blank" rel="noopener" className="text-primary-600 hover:underline">website contact form</a>.</p>
         </div>
       </div>
     </div>
