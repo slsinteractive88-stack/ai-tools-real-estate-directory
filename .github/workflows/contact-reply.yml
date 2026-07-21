@@ -1,0 +1,58 @@
+name: Contact Form Reply Handler
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  handle-reply:
+    if: >
+      contains(github.event.issue.labels.*.name, 'contact-form') &&
+      startsWith(github.event.comment.body, '@bot reply')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract reply content
+        id: extract
+        run: |
+          BODY="${{ github.event.comment.body }}"
+          # Remove "@bot reply " prefix
+          REPLY="${BODY#@bot reply }"
+          echo "reply<<EOF" >> $GITHUB_OUTPUT
+          echo "$REPLY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Get submitter email from issue body
+        id: email
+        run: |
+          # Fetch issue body
+          ISSUE_BODY=$(gh api repos/${{ github.repository }}/issues/${{ github.event.issue.number }} --jq '.body')
+          
+          # Extract email (format: **Email:** user@example.com)
+          EMAIL=$(echo "$ISSUE_BODY" | grep -i '^**Email:**' | head -1 | sed 's/.*\*\*Email:\*\* *//' | xargs)
+          
+          if [ -z "$EMAIL" ] || [[ "$EMAIL" == "N/A" ]]; then
+            echo "❌ Could not find email in issue body"
+            exit 1
+          fi
+          
+          echo "email=$EMAIL" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Send reply email
+        if: steps.email.outputs.email != ''
+        run: |
+          curl -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "from": "Realty AI Vault <noreply@realtyaivault.com>",
+              "to": "${{ steps.email.outputs.email }}",
+              "subject": "Re: Your message to Realty AI Vault",
+              "html": "<p>${{ steps.extract.outputs.reply }}</p><hr><p><small>This is a reply to your contact form submission at <a href=\"https://realtyaivault.com\">realtyaivault.com</a>.</small></p>"
+            }'
+          
+          # Add reaction to confirm sent
+          gh api --method POST repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/reactions -f content='white_check_mark'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

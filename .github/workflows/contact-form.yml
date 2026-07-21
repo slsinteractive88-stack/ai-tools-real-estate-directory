@@ -1,0 +1,238 @@
+name: Contact Form Notifications
+
+on:
+  issues:
+    types: [opened, labeled]
+  issue_comment:
+    types: [created]
+  schedule:
+    - cron: '0 9 * * *'
+
+env:
+  GITHUB_REPO: ${{ github.repository }}
+  CONTACT_LABEL: 'contact-form'
+
+jobs:
+  notify-new-contact:
+    if: github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'contact-form')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send notification
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+            
+            const emailMatch = body.match(/\*\*Email:\*\*\s*(.+)/);
+            const email = emailMatch ? emailMatch[1].trim() : 'Unknown';
+            
+            const nameMatch = body.match(/\*\*Name:\*\*\s*(.+)/);
+            const name = nameMatch ? nameMatch[1].trim() : 'Unknown';
+            
+            const typeMatch = body.match(/\*\*Type:\*\*\s*(.+)/);
+            const type = typeMatch ? typeMatch[1].trim() : 'general';
+            
+            const subjectMatch = body.match(/\*\*Subject:\*\*\s*(.+)/);
+            const subject = subjectMatch ? subjectMatch[1].trim() : issue.title;
+
+            const message = 'New Contact Form Submission\n\n' +
+              'Issue: #' + issue.number + ' - ' + issue.title + '\n' +
+              'Type: ' + type + '\n' +
+              'Name: ' + name + '\n' +
+              'Email: ' + email + '\n' +
+              'Subject: ' + subject + '\n\n' +
+              'View Issue: ' + issue.html_url + '\n\n' +
+              '---\n' +
+              'Reply to this issue with `@bot reply Your message here` to send a response to the contact.';
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: message
+            });
+
+  daily-contact-summary:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for new contact issues
+        id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'contact-form',
+              state: 'open',
+              sort: 'created',
+              direction: 'desc',
+              per_page: 50
+            });
+
+            const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+            const recentIssues = issues.filter(issue => 
+              new Date(issue.created_at) > oneDayAgo
+            );
+
+            console.log('Found ' + recentIssues.length + ' new contact issues in last 24h');
+
+            if (recentIssues.length === 0) {
+              return { count: 0, issues: [], summary: '' };
+            }
+
+            let summary = 'Daily Contact Summary (' + new Date().toLocaleDateString() + ')\n\n';
+            summary += 'Found ' + recentIssues.length + ' new contact form submissions:\n\n';
+
+            for (const issue of recentIssues) {
+              const body = issue.body || '';
+              const emailMatch = body.match(/\*\*Email:\*\*\s*(.+)/);
+              const email = emailMatch ? emailMatch[1].trim() : 'Unknown';
+              const nameMatch = body.match(/\*\*Name:\*\*\s*(.+)/);
+              const name = nameMatch ? nameMatch[1].trim() : 'Unknown';
+              const typeMatch = body.match(/\*\*Type:\*\*\s*(.+)/);
+              const type = typeMatch ? typeMatch[1].trim() : 'general';
+
+              summary += '- #' + issue.number + ' [' + type + '] ' + name + ' (' + email + '): ' + issue.title + '\n  ' + issue.html_url + '\n';
+            }
+
+            return { count: recentIssues.length, issues: recentIssues, summary };
+
+      - name: Notify if new contacts
+        if: fromJson(steps.check.outputs.result).count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const result = JSON.parse(steps.check.outputs.result);
+            const summary = result.summary || 'New contacts found';
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Contact Summary - ' + new Date().toLocaleDateString() + ' (' + result.count + ' new)',
+              body: summary + '\n\n---\n*Auto-generated daily summary. Close when reviewed.*',
+              labels: ['contact-summary', 'automated']
+            });
+
+  reply-to-contact:
+    if: github.event_name == 'issue_comment' && contains(github.event.comment.body, '@bot reply')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send reply to contact
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = context.payload.comment;
+            const issue = context.payload.issue;
+            
+            const hasContactLabel = issue.labels.some(l => l.name === 'contact-form');
+            if (!hasContactLabel) {
+              console.log('Not a contact-form issue, skipping');
+              return;
+            }
+
+            const replyMatch = comment.body.match(/@bot\s+reply\s+([\s\S]+)/i);
+            if (!replyMatch) {
+              console.log('No reply content found');
+              return;
+            }
+            
+            const replyMessage = replyMatch[1].trim();
+            if (!replyMessage) {
+              console.log('Empty reply message');
+              return;
+            }
+
+            const body = issue.body || '';
+            const emailMatch = body.match(/\*\*Email:\*\*\s*(.+)/);
+            const email = emailMatch ? emailMatch[1].trim() : null;
+            
+            if (!email || email === 'Unknown') {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'Could not extract email from issue. Cannot send reply.'
+              });
+              return;
+            }
+
+            const resendKey = process.env.RESEND_API_KEY;
+            if (!resendKey) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'RESEND_API_KEY not configured. Cannot send email.'
+              });
+              return;
+            }
+
+            try {
+              const nameMatch = body.match(/\*\*Name:\*\*\s*(.+)/);
+              const name = nameMatch ? nameMatch[1].trim() : 'there';
+
+              const response = await fetch('https://api.resend.com/emails', {
+                method: 'POST',
+                headers: {
+                  'Authorization': 'Bearer ' + resendKey,
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                  from: 'Realty AI Vault <noreply@realtyaivault.com>',
+                  to: [email],
+                  subject: 'Re: ' + issue.title.replace('Contact: ', ''),
+                  html: '<p>Hi ' + name + ',</p>' +
+                        '<p>' + replyMessage.replace(/\n/g, '<br>') + '</p>' +
+                        '<hr>' +
+                        '<p style="color: #666; font-size: 12px;">' +
+                        'This is a reply to your contact form submission on ' +
+                        '<a href="https://realtyaivault.com">Realty AI Vault</a>.<br>' +
+                        'Reference: Issue #' + issue.number + '</p>',
+                  text: 'Hi ' + name + ',\n\n' + replyMessage + '\n\n---\n' +
+                        'This is a reply to your contact form submission on Realty AI Vault.\n' +
+                        'Reference: Issue #' + issue.number
+                })
+              });
+
+              if (!response.ok) {
+                const error = await response.json();
+                throw new Error('Resend API error: ' + error.message);
+              }
+
+              await github.rest.reactions.createForIssueComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: comment.id,
+                content: 'eyes'
+              });
+
+              await github.rest.reactions.createForIssueComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: comment.id,
+                content: 'white_check_mark'
+              });
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'Reply sent to ' + email + '\n\n> ' + replyMessage.split('\n').join('\n> ')
+              });
+
+              console.log('Reply sent to ' + email + ' for issue #' + issue.number);
+
+            } catch (error) {
+              console.error('Failed to send reply:', error);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'Failed to send reply: ' + error.message
+              });
+            }
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
